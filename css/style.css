@@ -112,10 +112,11 @@ textarea {
   font-size: 20px;
   width: 250px;
   border-radius: 10px 30px 15px;
-  transition: transform 0.2s;
+  border: 1px solid #ccc;
 }
 .linkbox:hover {
-  transform: scale(1.04);
+  box-shadow: 8px 8px 15px #444;
+  border: 1px solid #666;
 }
 
 a:link,
