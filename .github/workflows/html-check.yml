@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: SandKar site CI
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
     - name: Check HTML
       uses: chabad360/htmlproofer@master
       with:
-        directory: "."
+        directory: "./favorieten"
         # The directory to scan
         arguments: --allow-missing-href
         # The arguments to pass to HTMLProofer
