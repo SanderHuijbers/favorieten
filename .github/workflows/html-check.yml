@@ -15,7 +15,7 @@ jobs:
     - name: Check HTML
       uses: chabad360/htmlproofer@master
       with:
-        directory: "./"
+        # directory: "."
         # The directory to scan
         # arguments: --check-html
         # The arguments to pass to HTMLProofer
