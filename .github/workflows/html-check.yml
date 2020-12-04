@@ -17,5 +17,5 @@ jobs:
       with:
         directory: "./"
         # The directory to scan
-        arguments: --check-html
+        # arguments: --check-html
         # The arguments to pass to HTMLProofer
