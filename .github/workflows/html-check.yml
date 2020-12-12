@@ -1,0 +1,21 @@
+name: SandKar site CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check HTML
+      uses: chabad360/htmlproofer@master
+      with:
+        directory: "./"
+        # The directory to scan
+        # arguments: --check-html
+        # The arguments to pass to HTMLProofer
