@@ -1,0 +1,29 @@
+@charset "utf-8";
+body {
+	font: 100% Verdana,Geneva,sans-serif;
+}
+
+td {
+	color: #000;
+}
+h1 {
+	color: #559;
+	font-size: 170%;
+}
+a {
+	color: #119;
+	font-size: 90%;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	color: #446;
+}
+a:active {
+	text-decoration: none;
+	color: #333;
+}
