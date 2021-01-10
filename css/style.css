@@ -260,6 +260,10 @@ a:hover {
     transform: none;
   }
 
+  .linkbox li {
+    margin-bottom: 0.4em;
+  }
+
   input[type="text"],
   select,
   textarea {
