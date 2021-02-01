@@ -80,9 +80,7 @@ textarea {
   margin-bottom: -6px;
 }
 
-input[type="text"].duckduckgo,
-select,
-textarea {
+.duckduckgo {
   width: 75%;
   height: 40px;
   padding: 4px;
