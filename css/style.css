@@ -64,7 +64,7 @@ li {
   font-size: 2.5em;
 }
 
-input[type="text"],
+input[type="text"].google,
 select,
 textarea {
   width: 75%;
@@ -79,6 +79,23 @@ textarea {
   text-indent: 40px;
   margin-bottom: -6px;
 }
+
+input[type="text"].duckduckgo,
+select,
+textarea {
+  width: 75%;
+  height: 30px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 22px;
+  resize: vertical;
+  background-image: url(../images/site/duckduckgo.png);
+  background-repeat: no-repeat;
+  background-position: 6px 4px;
+  text-indent: 40px;
+  margin-bottom: -6px;
+}
+
 
 .knop {
   padding: 10px;
