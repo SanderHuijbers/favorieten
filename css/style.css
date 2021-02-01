@@ -84,7 +84,7 @@ input[type="text"].duckduckgo,
 select,
 textarea {
   width: 75%;
-  height: 30px;
+  height: 40px;
   padding: 4px;
   border: 1px solid #ccc;
   border-radius: 22px;
@@ -94,8 +94,8 @@ textarea {
   background-position: 6px 4px;
   text-indent: 40px;
   margin-bottom: -6px;
+  overflow: hidden;
 }
-
 
 .knop {
   padding: 10px;
