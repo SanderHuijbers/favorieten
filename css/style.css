@@ -83,15 +83,9 @@ textarea {
 .duckduckgo {
   width: 75%;
   height: 40px;
-  padding: 4px;
-  border: 1px solid #ccc;
-  border-radius: 22px;
+  padding: 0px;
   resize: vertical;
-  background-image: url(../images/site/duckduckgo.png);
-  background-repeat: no-repeat;
-  background-position: 6px 4px;
-  text-indent: 40px;
-  margin-bottom: -6px;
+  margin: 0px;
   overflow: hidden;
 }
 
