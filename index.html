@@ -103,9 +103,26 @@
 
 <body onload="document.body.background = image">
     <div id="outerWrapper">
-        <div class="header">
-            <h1>SandKar's Favorieten</h1>
-        </div>
+        <header>
+                <titlebar>
+                    <h1>Sandkar's Favorieten</h1>
+                </titlebar>
+                <navigation>
+                    <a class="burger-nav"><h1>Sandkar's Favorieten</h1></a>
+                    <ul>
+                        <li><a target="_self" href="#sandkar_sites">Sandkar sites</a></li>
+                        <li><a target="_self" href="#streaming_audio">Streaming audio</a></li>
+                        <li><a target="_self" href="#usenet">Usenet</a></li>
+                        <li><a target="_self" href="#google">Google</a></li>
+                        <li><a target="_self" href="#bouwmarkten">Bouwmarkten</a></li>
+                        <li><a target="_self" href="#weer">Het weer</a></li>
+                        <li><a target="_self" href="#winkels">Winkels</a></li>
+                        <li><a target="_self" href="#supermarkten">Supermarkten</a></li>
+                        <li><a target="_self" href="#nieuws">Het nieuws</a></li>
+                        <li><a target="_self" href="#streaming_video">Streaming video</a></li>
+                    </ul>
+                </navigation>
+        </header>
         <div class="grid-container">
             <header class="grid-center">
                 <!-- <form method="get" action="https://www.google.nl/search">
@@ -120,6 +137,7 @@
                 <!-- <div class="row"> -->
                 <!-- <div class="column"> -->
                 <div class="linkbox">
+                    <a name="sandkar_sites"></a>
                     <h2>SandKar sites</h2>
                     <ul>
                         <li><a href="https://frw.sandkar.nl">Fotorw</a></li>
@@ -144,6 +162,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="streaming_audio"></a>
                     <h2>Streaming Audio</h2>
                     <ul>
                         <li class="radiostream">
@@ -249,6 +268,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="usenet"></a>
                     <h2>Usenet</h2>
                     <ul>
                         <li>
@@ -275,6 +295,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="usenet_providers"></a>
                     <h2>Usenet Providers</h2>
                     <ul>
                         <li><a href="https://eweka.nl/">Eweka</a></li>
@@ -284,6 +305,7 @@
                     </ul>
                 </div>
                 <div class="linkbox">
+                    <a name="linux_distributies"></a>
                     <h2>Linux Distributies</h2>
                     <ul>
                         <li><a href="https://linuxmint.com/">LinuxMint</a></li>
@@ -302,36 +324,11 @@
                     </ul>
                 </div>
 
-                <div class="linkbox">
-                    <h2>Security</h2>
-                    <ul>
-                        <li><a href="https://www.avast.com">Avast (gratis)</a></li>
-                        <li><a href="https://www.grisoft.com">AVG (gratis)</a></li>
-                        <li><a href="https://www.mcafee.com">McAfee</a></li>
-                        <li><a href="https://www.symantec.com">Symantec</a></li>
-                        <li><a href="https://www.zonelabs.com">ZoneLabs</a></li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <h2>Zoeken</h2>
-                    <ul>
-                        <li><a href="https://duckduckgo.com/">DuckDuckGo</a></li>
-                        <li><a href="https://www.ixquick.com/ned/">IXQuick</a></li>
-                        <li><a href="https://www.imdb.com">IMDB</a></li>
-                        <li><a href="https://www.spyderweb.nl/">Spyderweb</a></li>
-                    </ul>
-                </div>
-
-
-
-
-
-
             </div>
             <div class="grid-item">
                 <!-- <div class="column"> -->
                 <div class="linkbox">
+                    <a name="google"></a>
                     <h2>Google</h2>
                     <ul>
                         <li><a href="https://www.google.com/calendar">Agenda</a></li>
@@ -355,6 +352,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="weer"></a>
                     <h2>Het weer</h2>
                     <ul>
                         <li><a href="https://www.weeronline.nl">WeerOnline</a></li>
@@ -374,6 +372,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="media_info"></a>
                     <h2>Media info</h2>
                     <ul>
                         <li><a href="https://www.imdb.com">IMDB</a></li>
@@ -384,6 +383,7 @@
 
 
                 <div class="linkbox">
+                    <a name="bouwmarkten"></a>
                     <h2>Bouwmarkten</h2>
                     <ul>
                         <li><a href="https://www.formido.nl">Formido</a></li>
@@ -395,6 +395,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="winkels"></a>
                     <h2>Winkels</h2>
                     <ul>
                         <li>
@@ -419,6 +420,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="supermarkten"></a>
                     <h2>Supermarkten</h2>
                     <ul>
                         <li><a href="https://www.ah.nl">AH Albert Heijn </a></li>
@@ -434,6 +436,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="koken"></a>
                     <h2>Koken</h2>
                     <ul>
                         <li>
@@ -456,6 +459,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="stock_photos"></a>
                     <h2>Stock photos</h2>
                     <ul>
                         <li><a href="https://pixabay.com/">Pixabay (free)</a></li>
@@ -471,6 +475,7 @@
             <div class="grid-item">
                 <!-- <div class="column"> -->
                 <div class="linkbox">
+                    <a name="relaxgeluiden"></a>
                     <h2>Relaxgeluiden</h2>
                     <ul>
                         <li><a href="https://asoftmurmur.com/">A soft murmur</a></li>
@@ -478,6 +483,7 @@
                     </ul>
                 </div>
                 <div class="linkbox">
+                    <a name="social_media"></a>
                     <h2>Social media</h2>
                     <ul>
                         <li><a href="https://www.telegram.org">Telegram </a></li>
@@ -491,6 +497,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="overig"></a>
                     <h2>Overig</h2>
                     <ul>
                         <li><a href="https://www.postnl.nl/postcode-zoeken/">Postcode</a></li>
@@ -500,6 +507,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="tv"></a>
                     <h2>TV</h2>
                     <ul>
                         <li><a href="https://www.tvgids.nl/">De TV gids</a></li>
@@ -525,6 +533,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="verkeers_informatie"></a>
                     <h2>Verkeers informatie</h2>
                     <ul>
                         <li>
@@ -545,6 +554,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="ov"></a>
                     <h2>OV</h2>
                     <ul>
                         <li><a href="https://www.ov-chipkaart.nl/">OV Chipkaart</a></li>
@@ -555,6 +565,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="telefonie"></a>
                     <h2>Telefonie</h2>
                     <ul>
                         <li><a href="https://www.kpn.com">KPN.com</a></li>
@@ -566,6 +577,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="uitgaan"></a>
                     <h2>Uitgaan</h2>
                     <ul>
                         <li><a href="https://www.pathe.nl">Path&eacute;.nl</a></li>
@@ -580,6 +592,7 @@
 
 
                 <div class="linkbox">
+                    <a name="natuur"></a>
                     <h2>Natuur</h2>
                     <ul>
                         <li>
@@ -592,6 +605,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="prijs_vergelijk"></a>
                     <h2>Prijs vergelijk</h2>
                     <ul>
                         <li><a href="https://www.kelkoo.nl/">kelkoo</a></li>
@@ -604,6 +618,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="digitale_fotografie"></a>
                     <h2>Digitale fotografie</h2>
                     <ul>
                         <li><a href="https://www.fotohart.nl/">Fotohart Maassluis</a></li>
@@ -621,6 +636,7 @@
 
 
                 <div class="linkbox">
+                    <a name="streaming_video"></a>
                     <h2>Streaming video</h2>
                     <ul>
                         <li><a href="https://www.youtube.com">YouTube</a></li>
@@ -640,6 +656,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="nieuws"></a>
                     <h2>Nieuws (NL)</h2>
                     <ul>
                         <li><a href="https://www.ad.nl">AD.nl</a></li>
@@ -650,6 +667,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="webstorage"></a>
                     <h2>Webstorage</h2>
                     <ul>
                         <li><a href="https://www.dropbox.com">Dropbox</a></li>
@@ -661,6 +679,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="file_transfer"></a>
                     <h2>File Transfer</h2>
                     <ul>
                         <li><a href="https://send.firefox.com/">Firefox send</a></li>
@@ -669,6 +688,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="info_techniek"></a>
                     <h2>Info techniek</h2>
                     <ul>
                         <li><a href="https://www.allpinouts.org">Connector pinout</a></li>
@@ -680,6 +700,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="providers"></a>
                     <h2>Providers</h2>
                     <ul>
                         <li><a href="https://www.caiway.nl">Caiway</a></li>
@@ -695,6 +716,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="kaartje_sturen"></a>
                     <h2>Kaartje sturen?</h2>
                     <ul>
                         <li><a href="https://www.greetz.nl">Greetz</a></li>
@@ -703,6 +725,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="energie"></a>
                     <h2>Energie</h2>
                     <ul>
                         <li><a href="https://www.eneco.nl">Eneco</a></li>
@@ -714,6 +737,7 @@
                 </div>
 
                 <div class="linkbox">
+                    <a name="banken"></a>
                     <h2>Banken</h2>
                     <ul>
                         <li><a href="https://www.abnamro.nl">AbnAmro</a></li>
@@ -731,5 +755,11 @@
         </div>
 
 </body>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+    $( "a.burger-nav" ).click(function() {
+        $( "header navigation ul" ).toggleClass( "open" );
+    });
+</script>
 
 </html>
