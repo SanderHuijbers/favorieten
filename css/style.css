@@ -36,6 +36,23 @@ body {
 }
 /* End grid part */
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 1px;
+}
+
+#myBtn:hover {
+   background-color: #555;
+}
+
 header titlebar h1 {
   background-color: #fff;
   text-align: center;
