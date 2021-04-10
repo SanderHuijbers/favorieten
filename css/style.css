@@ -45,12 +45,13 @@ body {
   border: none;
   outline: none;
   background: transparent;
+  opacity: 0.5;
   cursor: pointer;
   padding: 1px;
 }
 
 #myBtn:hover {
-   background-color: #555;
+   opacity: 0.7;
 }
 
 header titlebar h1 {
