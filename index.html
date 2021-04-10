@@ -728,11 +728,12 @@
 </body>
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>
+    //Code for hamburger menu
     $( "a.burger-nav" ).click(function() {
         $( "header navigation ul" ).toggleClass( "open" );
     });
-</script>
-<script>
+
+    //Code for home button
     //Get the button
     var mybutton = document.getElementById("myBtn");
 
@@ -742,6 +743,7 @@
     function scrollFunction() {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         mybutton.style.display = "block";
+        $( "header navigation ul" ).removeClass( "open" );
       } else {
         mybutton.style.display = "none";
       }
