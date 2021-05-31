@@ -121,7 +121,7 @@ textarea {
 }
 
 .duckduckgo {
-  width: 75%;
+  width: 98%;
   height: 40px;
   padding: 0px;
   resize: vertical;
@@ -343,6 +343,12 @@ header navigation ul li a{
     display: block;
     margin: 0;
 }
+
+  .duckduckgo {
+    width: 98%;
+    padding-top: 12px;
+  }
+
 
   .linkbox {
     background-color: rgba(255, 255, 255, 0.7);
