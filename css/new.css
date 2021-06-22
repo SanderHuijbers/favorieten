@@ -1,11 +1,22 @@
-.ex2 .parent {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.ex2 .box {
-  flex: 1 1 150px; /*  Stretching: */
-  flex: 0 1 150px; /*  No stretching: */
-  margin: 5px;
-}
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .child {
+    /*  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ] */
+    /*  If we don't want the items to stretch: */
+    flex: 0 1 300px;
+    /*  If we do want the items to stretch: */
+    flex: 1 1 300px;
+    
+    /*   etc.*/
+    border: 1px solid red;
+    background: lightpink;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  body {
+    font-family: system-ui, serif;
+  }
