@@ -38,6 +38,7 @@ li {
   border-radius: 10px 30px 15px;
   border: 1px solid #ccc;
   text-align: left;
+  min-height: 450px;
 }
 .linkbox:hover {
   box-shadow: 8px 8px 15px #444;
@@ -93,8 +94,8 @@ a:hover {
     flex: 1 1 300px;
     
     /*   etc.*/
-    border: 1px solid red;
-    background: lightpink;
+    /* border: 1px solid red; */
+    /* background: lightpink; */
     font-size: 2rem;
     text-align: center;
     margin: 10px;
