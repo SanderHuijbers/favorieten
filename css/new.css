@@ -1,6 +1,8 @@
 .parent {
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
   }
   
   .child {
