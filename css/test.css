@@ -76,6 +76,79 @@
   background-color: white;
 } */
 
+.linkbox {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 5px 5px #444;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  /* margin-left: 14px; */
+  font-size: 20px;
+  width: 87%;
+  border-radius: 10px 30px 15px;
+  border: 1px solid #ccc;
+}
+.linkbox:hover {
+  box-shadow: 8px 8px 15px #444;
+  border: 1px solid #666;
+}
+
+a:link,
+a:visited {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.linkbox h2 {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  font-size: 1.3em;
+}
+
+li {
+  list-style-type: none;
+}
+
+.burger-nav {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background: url(../images/site/burger-nav-dark.png) no-repeat 2% center;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  opacity: 0.7;
+}
+
+header titlebar h1 {
+ background-color: #fff;
+ text-align: center;
+ height: 70px;
+ box-shadow: 0px 5px 5px #444;
+ opacity: 0.7;
+ margin-top: 0px;
+ margin-bottom: 16px;
+ width: 100%;
+ padding-top: 20px;
+ font-size: 2.5em;
+}
+
+header navigation ul {
+ display: none;
+}
+
+header navigation h1 {
+ display: none;
+}
+
 .meta h1 {
   font-size: 4rem;
   font-weight: 300;
@@ -213,7 +286,7 @@ section:nth-child(2n) .tab-area button.active {
 .section-container2 {
     /* max-width: var(--pageMax); */
     margin: 0 auto;
-    padding: 4rem 2rem;
+    padding: 2rem 4rem;
   }
 
 .codepen-link {
@@ -273,14 +346,14 @@ section:nth-child(2n) .tab-area button.active {
   border-style: dashed;
 }
 
-.ex-container .section {
+.ex-container2 .section {
   font-size: 1.5rem;
   padding: 1rem;
   border-style: dashed;
 }
 
 @media screen and (min-width: 811px) {
-  .ex-section {
+  .ex-section2 {
     height: 400px;
   }
 
@@ -295,11 +368,11 @@ section:nth-child(2n) .tab-area button.active {
 }
 
 @media screen and (max-width: 811px) {
-  .ex-container {
+  /* .ex-container2 {
     height: 300px;
-  }
+  } */
 
-  .ex-section {
+  .ex-section2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
@@ -307,7 +380,7 @@ section:nth-child(2n) .tab-area button.active {
     font-size: 1rem;
   }
 
-  .ex-container .section {
+  .ex-container2 .section {
     font-size: 1rem;
   }
 
@@ -330,7 +403,7 @@ section:nth-child(2n) .tab-area button.active {
   }
 }
 
-.yt-embed {
+/* .yt-embed {
   padding-top: 56.25%;
   position: relative;
   width: 100%;
@@ -344,10 +417,10 @@ section:nth-child(2n) .tab-area button.active {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 100%;
-}
+} */
 
 /* Scrollbar */
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   width: 0.75rem;
 }
 
@@ -358,83 +431,10 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: var(--blue);
-}
+} */
 
 .ex7 .parent {
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
-
-.linkbox {
-    background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 5px 5px 5px #444;
-    margin-bottom: 25px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 25px;
-    /* margin-left: 14px; */
-    font-size: 20px;
-    width: 87%;
-    border-radius: 10px 30px 15px;
-    border: 1px solid #ccc;
-  }
-  .linkbox:hover {
-    box-shadow: 8px 8px 15px #444;
-    border: 1px solid #666;
-  }
-
-  a:link,
-  a:visited {
-    color: #333;
-    text-decoration: none;
-    font-size: 0.9em;
-  }
-  a:hover {
-    color: #000;
-    text-decoration: underline;
-  }
-  .linkbox h2 {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 10px;
-    margin-left: 0px;
-    font-size: 1.3em;
-  }
-
-  li {
-    list-style-type: none;
-  }
-
-  .burger-nav {
-    display: block;
-    height: 40px;
-    width: 100%;
-    background: url(../images/site/burger-nav-dark.png) no-repeat 2% center;
-    cursor: pointer;
-  }
-
-  #myBtn:hover {
-    opacity: 0.7;
- }
-
- header titlebar h1 {
-   background-color: #fff;
-   text-align: center;
-   height: 70px;
-   box-shadow: 0px 5px 5px #444;
-   opacity: 0.7;
-   margin-top: 0px;
-   margin-bottom: 16px;
-   width: 100%;
-   padding-top: 20px;
-   font-size: 2.5em;
- }
-
- header navigation ul {
-   display: none;
- }
-
- header navigation h1 {
-   display: none;
- }
