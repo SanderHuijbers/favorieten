@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --coral: hsl(23, 83%, 82%);
     --coral--b: hsl(23, 99%, 75%);
     --pink: hsl(335, 52%, 92%);
@@ -17,7 +17,7 @@
     --headerHeight: 60px;
     --middleHeight: 300px;
     --footerHeight: 100px;
-  }
+  } */
 
   @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
@@ -41,7 +41,7 @@
   code {
     font-family: "Inconsolata", monospace;
   }
-
+/* 
 .coral {
   background-color: var(--coral);
   border: 1px solid var(--coral--b);
@@ -74,7 +74,7 @@
 
 .white {
   background-color: white;
-}
+} */
 
 .meta h1 {
   font-size: 4rem;
@@ -119,7 +119,7 @@ section:nth-child(2n) .tab-area button.active {
   grid-gap: 2rem;
 }
 
-.ex-container {
+/* .ex-container {
   resize: both;
   position: relative;
   overflow: hidden;
@@ -130,7 +130,7 @@ section:nth-child(2n) .tab-area button.active {
   display: grid;
   align-items: center;
   background: white;
-}
+} */
 
 .ex-container2 {
     resize: both;
@@ -155,7 +155,7 @@ section:nth-child(2n) .tab-area button.active {
   display: block;
 } */
 
-.meta,
+/* .meta,
 .footer {
   text-align: center;
   padding: 4rem;
@@ -165,7 +165,7 @@ section:nth-child(2n) .tab-area button.active {
 .footer a {
   color: white;
   color: hsl(207, 90%, 54%);
-}
+} */
 
 .code-area {
   display: grid;
@@ -183,9 +183,9 @@ section:nth-child(2n) .tab-area button.active {
   border: 1px solid var(--blue);
   margin-top: -1px;
   font-size: 1.35rem;
-} */
+}
 
-.tab-area {
+ .tab-area {
   display: grid;
   width: 50%;
   justify-self: end;
@@ -209,7 +209,7 @@ section:nth-child(2n) .tab-area button.active {
   max-width: var(--pageMax);
   margin: 0 auto;
   padding: 4rem 2rem;
-}
+} */
 .section-container2 {
     /* max-width: var(--pageMax); */
     margin: 0 auto;
@@ -405,3 +405,36 @@ body::-webkit-scrollbar-thumb {
   li {
     list-style-type: none;
   }
+
+  .burger-nav {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(../images/site/burger-nav-dark.png) no-repeat 2% center;
+    cursor: pointer;
+  }
+
+  #myBtn:hover {
+    opacity: 0.7;
+ }
+ 
+ header titlebar h1 {
+   background-color: #fff;
+   text-align: center;
+   height: 70px;
+   box-shadow: 0px 5px 5px #444;
+   opacity: 0.7;
+   margin-top: 0px;
+   margin-bottom: 16px;
+   width: 100%;
+   padding-top: 20px;
+   font-size: 2.5em;
+ }
+ 
+ header navigation ul {
+   display: none;
+ }
+ 
+ header navigation h1 {
+   display: none;
+ }
