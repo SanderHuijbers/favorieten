@@ -128,6 +128,22 @@ li {
   opacity: 0.7;
 }
 
+.grid-center {
+  text-align: center;
+  padding-top: 20px;
+  border: 1 #333;
+  margin: 0px;
+}
+
+.duckduckgo {
+  width: 70%;
+  height: 40px;
+  padding: 0px;
+  resize: vertical;
+  margin: 0px;
+  overflow: hidden;
+}
+
 header titlebar h1 {
  background-color: #fff;
  text-align: center;
@@ -147,6 +163,21 @@ header navigation ul {
 
 header navigation h1 {
  display: none;
+}
+
+.radiostream {
+  width: 90%;
+  overflow: auto;
+}
+.radiostreamwebpage {
+  width: 175px;
+  float: left;
+  margin-bottom: 0.5em;
+}
+.radiostreambuttons {
+  width: 25px;
+  float: right;
+  text-align: right;
 }
 
 /* .meta h1 {
