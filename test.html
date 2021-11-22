@@ -99,15 +99,31 @@
 </head>
 
 <body onload="document.body.background = image">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/site/home_black_192x192.png"></button>
     <header>
         <titlebar>
             <h1>Sandkar's Favorieten</h1>
         </titlebar>
+        <navigation>
+            <a class="burger-nav"><h1>Sandkar's Favorieten</h1></a>
+            <ul>
+                <li><a target="_self" href="#sandkar_sites">Sandkar sites</a></li>
+                <li><a target="_self" href="#streaming_audio">Streaming audio</a></li>
+                <li><a target="_self" href="#linux_distributies">Linux Distributies</a></li>
+                <li><a target="_self" href="#google">Google</a></li>
+                <li><a target="_self" href="#bouwmarkten">Bouwmarkten</a></li>
+                <li><a target="_self" href="#weer">Het weer</a></li>
+                <li><a target="_self" href="#winkels">Winkels</a></li>
+                <li><a target="_self" href="#supermarkten">Supermarkten</a></li>
+                <li><a target="_self" href="#nieuws">Het nieuws</a></li>
+                <li><a target="_self" href="#streaming_video">Streaming video</a></li>
+            </ul>
+        </navigation>
     </header>
-    <header class="grid-center">
+    <div class="grid-center">
         <iframe class="duckduckgo" src="https://duckduckgo.com/search.html?kn=1&prefill=Zoek met DuckDuckGo"></iframe>
         <br />
-    </header>
+    </div>
     <section>
         <div class="section-container2">
             <div class="ex7">
@@ -675,5 +691,32 @@
 
 </body>
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+    //Code for hamburger menu
+    $( "a.burger-nav" ).click(function() {
+        $( "header navigation ul" ).toggleClass( "open" );
+    });
 
+    //Code for home button
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+        $( "header navigation ul" ).removeClass( "open" );
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
 </html>
