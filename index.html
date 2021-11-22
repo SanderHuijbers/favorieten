@@ -1,170 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Keywords"
-        content="sandkar's, linken, humor, winkels, telefoon, kpn, nummer, zoekmachines, zoeken, voetbal, feyenoord." />
-    <meta name="Description"
-        content="sandkar's favorietenpage met linken naar handige sites met diverse onderwerpen." />
-    <base target="_blank" />
-    <title>Sandkar's Favorieten</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New setup</title>
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
-
-    <script>
-        random_number = Math.floor(Math.random() * 19 + 1);
-        console.log(random_number);
-        // Loads the appropriate image and text color based on random number.
-        if (random_number == 1) {
-            image = "./images/backgrounds/ravi2.jpg";
-        }
-        if (random_number == 2) {
-            image = "./images/backgrounds/blue_bg.jpg";
-        }
-        if (random_number == 3) {
-            image = "./images/backgrounds/gem_bg.jpg";
-        }
-        if (random_number == 4) {
-            image = "./images/backgrounds/frost_bg.jpg";
-        }
-        if (random_number == 5) {
-            image = "./images/backgrounds/marble_bg.jpg";
-        }
-        if (random_number == 6) {
-            image = "./images/backgrounds/blue-sky_bg.jpg";
-        }
-        if (random_number == 7) {
-            image = "./images/backgrounds/popcorn_bg.jpg";
-        }
-        if (random_number == 8) {
-            image = "./images/backgrounds/pinkrose_bg.jpg";
-        }
-        if (random_number == 9) {
-            image = "./images/backgrounds/stone_bg.jpg";
-        }
-        if (random_number == 10) {
-            image = "./images/backgrounds/stone2_bg.jpg";
-        }
-        if (random_number == 11) {
-            image = "./images/backgrounds/camouflage_bg.jpg";
-        }
-        if (random_number == 12) {
-            image = "./images/backgrounds/fire_bg.jpg";
-        }
-        if (random_number == 13) {
-            image = "./images/backgrounds/bricks_bg.jpg";
-        }
-        if (random_number == 14) {
-            image = "./images/backgrounds/blossom_bg.jpg";
-        }
-        if (random_number == 15) {
-            image = "./images/backgrounds/strawberry_bg.jpg";
-        }
-        if (random_number == 16) {
-            image = "./images/backgrounds/ravi.jpg";
-        }
-        if (random_number == 17) {
-            image = "./images/backgrounds/orange_bg.jpg";
-        }
-        if (random_number == 18) {
-            image = "./images/backgrounds/zand3.jpg";
-        }
-        if (random_number == 19) {
-            image = "./images/backgrounds/bier.jpg";
-        }
-        if (random_number == 20) {
-            image = "./images/backgrounds/heineken.jpg";
-        }
-        console.log(image);
-    </script>
-
-    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png" />
-    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon//favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-    <meta name="theme-color" content="#ffffff" />
+    <!-- <link href="./css/style.css" rel="stylesheet" type="text/css" /> -->
 </head>
-
-
-<!--Einde header2 -->
-
-<body onload="document.body.background = image">
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/site/home_black_192x192.png"></button>
-    <div id="outerWrapper">
-        <header>
-                <titlebar>
-                    <h1>Sandkar's Favorieten</h1>
-                </titlebar>
-                <navigation>
-                    <a class="burger-nav"><h1>Sandkar's Favorieten</h1></a>
+<body>
+    <header>
+        <titlebar>
+            <h1>Sandkar's Favorieten</h1>
+        </titlebar>
+        <navigation>
+            <a class="burger-nav"><h1>Sandkar's Favorieten</h1></a>
+            <ul>
+                <li><a target="_self" href="#sandkar_sites">Sandkar sites</a></li>
+                <li><a target="_self" href="#streaming_audio">Streaming audio</a></li>
+                <li><a target="_self" href="#linux_distributies">Linux Distributies</a></li>
+                <li><a target="_self" href="#google">Google</a></li>
+                <li><a target="_self" href="#bouwmarkten">Bouwmarkten</a></li>
+                <li><a target="_self" href="#weer">Het weer</a></li>
+                <li><a target="_self" href="#winkels">Winkels</a></li>
+                <li><a target="_self" href="#supermarkten">Supermarkten</a></li>
+                <li><a target="_self" href="#nieuws">Het nieuws</a></li>
+                <li><a target="_self" href="#streaming_video">Streaming video</a></li>
+            </ul>
+        </navigation>
+    </header>
+    <div class="parent">
+        <div class="child">
+            <div class="linkbox">
+                <h2>SandKar sites</h2>
+            <ul>
+                <li><a href="https://frw.sandkar.nl">Fotorw</a></li>
+                <li><a href="https://www.sandkar.nl/feyenoordpage/">Feyenoordpage</a></li>
+                <li>
+                    <a href="https://www.sandkar.nl/favorieten/hoekvh.htm">Hoek van Holland</a>
+                </li>
+                <li><a href="https://maassluis.sandkar.nl">Maassluis</a></li>
+                <li><a href="https://www.kookieook.eu">Kookieook</a></li>
+                <!-- <li>
+                    <a href="https://www.sandkar.nl/clubsites">Offici&euml;le Club Sites</a>
+                </li> -->
+                <li><a href="https://www.sandkar.nl/rasta">Planet Rasta</a></li>
+                <li><a href="https://sandkar.nl/awstats">Statistieken</a></li>
+                <li>
+                    <a href="https://www.sandkar.nl/thuiswerken">Thuiswerken</a>
+                </li>
+                <li>
+                    <a href="https://www.sandkar.nl/developer">Developer</a>
+                </li>
+            </ul>
+            </ul>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+            <h2>Google</h2>
+            <ul>
+                <li><a href="https://www.google.com/calendar">Agenda</a></li>
+                <li><a href="https://images.google.nl">Afbeeldingen</a></li>
+                <li><a href="https://drive.google.com">Drive</a></li>
+                <li><a href="https://www.gmail.com">Gmail</a></li>
+                <li><a href="https://keep.google.com/">Keep</a></li>
+                <li><a href="https://maps.google.nl">Maps</a></li>
+                <li><a href="https://meet.google.com/">Meet</a></li>
+                <li><a href="https://messages.google.com/web/authentication">SMS</a></li>
+                <li><a href="https://photos.google.com/">Foto's</a></li>
+                <li><a href="https://news.google.nl/">Nieuws</a></li>
+                <li><a href="https://podcasts.google.com">Podcasts</a></li>
+                <li><a href="https://translate.google.nl">Vertalen</a></li>
+                <li>
+                    <a href="https://shoppinglist.google.com/lists">Boodschappenlijsten</a>
+                </li>
+                <li><a href="https://app.sketchup.com/app?hl=nl">Sketchup</a></li>
+                <li><a href="https://video.google.nl">Video</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+            <h2>Social media</h2>
                     <ul>
-                        <li><a target="_self" href="#sandkar_sites">Sandkar sites</a></li>
-                        <li><a target="_self" href="#streaming_audio">Streaming audio</a></li>
-                        <li><a target="_self" href="#linux_distributies">Linux Distributies</a></li>
-                        <li><a target="_self" href="#google">Google</a></li>
-                        <li><a target="_self" href="#bouwmarkten">Bouwmarkten</a></li>
-                        <li><a target="_self" href="#weer">Het weer</a></li>
-                        <li><a target="_self" href="#winkels">Winkels</a></li>
-                        <li><a target="_self" href="#supermarkten">Supermarkten</a></li>
-                        <li><a target="_self" href="#nieuws">Het nieuws</a></li>
-                        <li><a target="_self" href="#streaming_video">Streaming video</a></li>
+                        <li><a href="https://www.telegram.org">Telegram </a></li>
+                        <li><a href="https://web.whatsapp.com/">Whatsapp web</a></li>
+                        <li><a href="https://www.twitter.com">Twitter</a></li>
+                        <li>
+                            <a href="https://www.twitter.com/search-home">Twitter doorzoeken</a>
+                        </li>
+                        <li><a href="https://www.linkedin.com">LinkedIn</a></li>
                     </ul>
-                </navigation>
-        </header>
-        <div class="grid-container">
-            <header class="grid-center">
-                <!-- <form method="get" action="https://www.google.nl/search">
-                    <input class="google" type="text" name="q" maxlength="255" />
-                    <input type="hidden" name="hl" value="nl" /> <br />
-                </form>--->
-                <iframe class="duckduckgo" src="https://duckduckgo.com/search.html?kn=1&prefill=Zoek met DuckDuckGo"></iframe>
-                <br />
-
-            </header>
-            <div class="grid-item">
-                <!-- <div class="row"> -->
-                <!-- <div class="column"> -->
-                <div class="linkbox">
-                    <a name="sandkar_sites"></a>
-                    <h2>SandKar sites</h2>
+        </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+            <h2>Streaming video</h2>
                     <ul>
-                        <li><a href="https://frw.sandkar.nl">Fotorw</a></li>
-                        <li><a href="https://www.sandkar.nl/feyenoordpage/">Feyenoordpage</a></li>
-                        <li>
-                            <a href="https://www.sandkar.nl/favorieten/hoekvh.htm">Hoek van Holland</a>
-                        </li>
-                        <li><a href="https://maassluis.sandkar.nl">Maassluis</a></li>
-                        <li><a href="https://www.kookieook.eu">Kookieook</a></li>
-                        <li>
-                            <a href="https://www.petrathurmer.nl/">Petra Thurmer Diëtist</a>
-                        </li>
-                        <li><a href="https://www.sandkar.nl/rasta">Planet Rasta</a></li>
-                        <li><a href="https://sandkar.nl/awstats">Statistieken</a></li>
-                        <li>
-                            <a href="https://www.sandkar.nl/thuiswerken">Thuiswerken</a>
-                        </li>
-                        <li>
-                            <a href="https://www.sandkar.nl/developer">Developer</a>
-                        </li>
+                        <li><a href="https://www.youtube.com">YouTube</a></li>
+                        <li><a href="https://www.netflix.com">Netflix</a></li>
+                        <li><a href="https://tv.kpn.com/">KPN TV (interactief)</a></li>
+                        <li><a href="https://odysee.com/">Odysee</a></li>
+                        <li><a href="https://www.uitzendinggemist.nl">NPO Start</a></li>
+                        <li><a href="https://www.npo.nl/live/nederland-1">Nederland 1</a></li>
+                        <li><a href="https://www.npo.nl/live/nederland-2">Nederland 2</a></li>
+                        <li><a href="https://www.npo.nl/live/npo-3">Nederland 3</a></li>
+                        <li><a href="https://www.filmon.tv">FilmOnTV</a></li>
+                        <li><a href="https://www.kijkdirect.nl">Kijkdirect.nl</a></li>
+                        <li><a href="https://nos.nl/nieuws/">NOS Journaal</a></li>
+                        <li><a href="https://www.dailymotion.com">Daily motion</a></li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="streaming_audio"></a>
-                    <h2>Streaming Audio</h2>
+        </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <h2>Streaming Audio</h2>
                     <ul>
                         <li class="radiostream">
                             <div class="radiostreamwebpage">
@@ -266,97 +217,11 @@
                             </div>
                         </li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="usenet"></a>
-                    <h2>Usenet</h2>
-                    <ul>
-                        <li>
-                            <a href="https://www.bierdopje.com">Bierdopje</a>(serie info)
-                        </li>
-                        <li>
-                            <a href="https://www.binsearch.info">Binsearch.info</a> (nzb's)
-                        </li>
-                        <li><a href="https://www.nzbindex.nl">NZBIndex.nl</a> (nzb's)</li>
-                        <li>
-                            <a href="https://www.nzbserver.com/">NZBServer.com</a> (Spots)
-                        </li>
-                        <li><a href="https://sabnzbd.org/">SABnzb</a> (tool)</li>
-                        <li>
-                            <a href="https://www.spot-net.nl/spotlite/">Spotlite</a> (tool)
-                        </li>
-                        <li><a href="https://www.spot-net.nl/">Spotnet</a> (tool)</li>
-                        <li><a href="https://www.filebot.net/">Filebot</a> (renamer)</li>
-                        <li>
-                            <a
-                                href="https://www.opensubtitles.org/nl/search/sublanguageid-dut,eng">Opensubtitles.org</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="usenet_providers"></a>
-                    <h2>Usenet Providers</h2>
-                    <ul>
-                        <li><a href="https://eweka.nl/">Eweka</a></li>
-                        <li><a href="https://www.pureusenet.nl/">Pure Usenet</a></li>
-                        <li><a href="https://www.sunnyusenet.com/">Sunny Usenet</a></li>
-                        <li><a href="https://www.xsusenet.com">XSusenet</a></li>
-                    </ul>
-                </div>
-                <div class="linkbox">
-                    <a name="linux_distributies"></a>
-                    <h2>Linux Distributies</h2>
-                    <ul>
-                        <li><a href="https://linuxmint.com/">LinuxMint</a></li>
-                        <li><a href="https://garudalinux.org/">Garuda Linux</a></li>
-                        <li><a href="https://www.debian.org/index.nl.html">Debian</a></li>
-                        <li><a href="https://www.ubuntu.com/">Ubuntu</a></li>
-                        <li><a href="https://www.kubuntu.org/">Kubuntu</a></li>
-                        <li><a href="https://ubuntu-mate.org/">Ubuntu mate</a></li>
-                        <li><a href="https://xubuntu.org/">Xubuntu</a></li>
-                        <li><a href="https://elementary.io/">Elementary OS</a></li>
-                        <li><a href="https://nl.opensuse.org/">Open Suse</a></li>
-                        <li><a href="https://getfedora.org/">Fedora</a></li>
-                        <li><a href="https://www.archlinux.org/">Arch</a></li>
-                        <li><a href="https://endeavouros.com/">Endeavour OS</a></li>
-                        <li><a href="https://manjaro.org/">Manjaro</a></li>
-                        <li><a href="https://www.redhat.com/en">Redhat</a></li>
-                    </ul>
-                </div>
-
             </div>
-            <div class="grid-item">
-                <!-- <div class="column"> -->
-                <div class="linkbox">
-                    <a name="google"></a>
-                    <h2>Google</h2>
-                    <ul>
-                        <li><a href="https://www.google.com/calendar">Agenda</a></li>
-                        <li><a href="https://images.google.nl">Afbeeldingen</a></li>
-                        <li><a href="https://drive.google.com">Drive</a></li>
-                        <li><a href="https://www.gmail.com">Gmail</a></li>
-                        <li><a href="https://keep.google.com/">Keep</a></li>
-                        <li><a href="https://maps.google.nl">Maps</a></li>
-                        <li><a href="https://earth.google.nl">Earth</a></li>
-                        <li><a href="https://meet.google.com/">Meet</a></li>
-                        <li><a href="https://messages.google.com/web/authentication">SMS</a></li>
-                        <li><a href="https://photos.google.com/">Foto's</a></li>
-                        <li><a href="https://news.google.nl/">Nieuws</a></li>
-                        <li><a href="https://podcasts.google.com">Podcasts</a></li>
-                        <li><a href="https://translate.google.nl">Vertalen</a></li>
-                        <li>
-                            <a href="https://shoppinglist.google.com/lists">Boodschappenlijsten</a>
-                        </li>
-                        <li><a href="https://app.sketchup.com/app?hl=nl">Sketchup</a></li>
-                        <li><a href="https://video.google.nl">Video</a></li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="weer"></a>
-                    <h2>Het weer</h2>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <h2>Het weer</h2>
                     <ul>
                         <li><a href="https://www.weeronline.nl">WeerOnline</a></li>
                         <li>
@@ -372,145 +237,43 @@
                             <a href="https://www.nhc.noaa.gov/">National Hurricane Center</a>
                         </li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="media_info"></a>
-                    <h2>Media info</h2>
-                    <ul>
-                        <li><a href="https://www.imdb.com">IMDB</a></li>
-                        <li><a href="https://www.trakt.tv">Trakt</a></li>
-                    </ul>
-                </div>
-
-
-
-                <div class="linkbox">
-                    <a name="bouwmarkten"></a>
-                    <h2>Bouwmarkten</h2>
-                    <ul>
-                        <li><a href="https://www.formido.nl">Formido</a></li>
-                        <li><a href="https://www.gamma.nl/">Gamma</a></li>
-                        <li><a href="https://www.hornbach.nl">Hornbach</a></li>
-                        <li><a href="https://www.karwei.nl">Karwei</a></li>
-                        <li><a href="https://www.praxis.nl">Praxis</a></li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="winkels"></a>
-                    <h2>Winkels</h2>
-                    <ul>
-                        <li>
-                            <a href="https://www.allekabels.nl">Allekabels</a>
-                        </li>
-                        <li><a href="https://www.alternate.nl/html/index.html">Alternate</a></li>
-                        <li><a href="https://www.banggood.com">Banggood</a></li>
-                        <li><a href="https://www.bcc.nl">BCC</a></li>
-                        <li><a href="https://www.bol.com">Bol.com</a></li>
-                        <li><a href="https://www.correct.com">Correct</a></li>
-                        <li><a href="https://www.conrad.nl">Conrad</a></li>
-                        <li><a href="https://www.coolblue.nl">Coolblue</a></li>
-                        <li><a href="https://www.dx.com/">DealExtreme</a></li>
-                        <li><a href="https://www.daka.nl/">Daka</a></li>
-                        <li><a href="https://www.foka.nl">Foka</a></li>
-                        <li><a href="https://www.hema.nl">HEMA</a></li>
-                        <li><a href="https://www.ibood.com/nl/nl/">IBood</a></li>
-                        <li><a href="https://www.ikea.nl">IKEA</a></li>
-                        <li><a href="https://www.opus.nl">Opus (online)</a></li>
-                        <li><a href="https://www.wehkamp.nl">Wehkamp</a></li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="supermarkten"></a>
-                    <h2>Supermarkten</h2>
-                    <ul>
-                        <li><a href="https://www.ah.nl">AH Albert Heijn </a></li>
-                        <li><a href="https://www.aldi.nl">Aldi</a></li>
-                        <li>
-                            <a href="https://www.biernet.nl/bier/aanbiedingen">Bier aanbiedingen
-                            </a>
-                        </li>
-                        <li><a href="https://www.hoogvliet.com">Hoogvliet</a></li>
-                        <li><a href="https://www.jumbo.com">Jumbo</a></li>
-                        <li><a href="https://www.lidl.nl">Lidl</a></li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="koken"></a>
-                    <h2>Koken</h2>
-                    <ul>
-                        <li>
-                            <a href="https://www.ah.nl/allerhande/recepten">Allerhande</a>
-                        </li>
-                        <li><a href="https://www.24kitchen.nl/">24Kitchen</a></li>
-                        <li><a href="https://www.njam.tv/">njam!</a></li>
-                        <li><a href="https://www.smulweb.nl">Smulweb</a></li>
-                        <li><a href="https://www.knorr.com">Knorr</a></li>
-                        <li><a href="https://www.koopmans.com/">Koopmans</a></li>
-                        <li>
-                            <a href="https://www.granditalia.nl/recepten">Grand'Italia</a>
-                        </li>
-                        <li><a href="https://www.watetenwevandaag.nl">Honig</a></li>
-                        <li><a href="https://www.conimex.nl">Conimex</a></li>
-                        <li>
-                            <a href="https://www.iglo.nl/recepten">Iglo</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="stock_photos"></a>
-                    <h2>Stock photos</h2>
-                    <ul>
-                        <li><a href="https://pixabay.com/">Pixabay (free)</a></li>
-                        <li><a href="https://www.pexels.com/">Pexels</a></li>
-                    </ul>
-                </div>
-
             </div>
-
-
-
-
-            <div class="grid-item">
-                <!-- <div class="column"> -->
-                <div class="linkbox">
-                    <a name="relaxgeluiden"></a>
-                    <h2>Relaxgeluiden</h2>
-                    <ul>
-                        <li><a href="https://asoftmurmur.com/">A soft murmur</a></li>
-                        <li><a href="https://www.noisli.com/">Noisli</a></li>
-                    </ul>
-                </div>
-                <div class="linkbox">
-                    <a name="social_media"></a>
-                    <h2>Social media</h2>
-                    <ul>
-                        <li><a href="https://www.telegram.org">Telegram </a></li>
-                        <li><a href="https://web.whatsapp.com/">Whatsapp web</a></li>
-                        <li><a href="https://www.twitter.com">Twitter</a></li>
-                        <li>
-                            <a href="https://www.twitter.com/search-home">Twitter doorzoeken</a>
-                        </li>
-                        <li><a href="https://www.linkedin.com">LinkedIn</a></li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="overig"></a>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="overig"></a>
                     <h2>Overig</h2>
                     <ul>
                         <li><a href="https://www.postnl.nl/postcode-zoeken/">Postcode</a></li>
                         <li><a href="https://www.gwktravelex.nl/">Valuta koersen</a></li>
                         <li><a href="http://www.112meldingen.nl/">112 meldingen</a></li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="tv"></a>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <h2>Nieuws (NL)</h2>
+                    <ul>
+                        <li><a href="https://www.ad.nl">AD.nl</a></li>
+                        <li><a href="https://www.nu.nl">NU.nl</a></li>
+                        <li><a href="https://nos.nl/nieuws/">NOS nieuws</a></li>
+                        <li><a href="https://www.tweakers.net">Tweakers.net</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="media_info"></a>
+                    <h2>Media info</h2>
+                    <ul>
+                        <li><a href="https://www.imdb.com">IMDB</a></li>
+                        <li><a href="https://www.trakt.tv">Trakt</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="tv"></a>
                     <h2>TV</h2>
                     <ul>
                         <li><a href="https://www.tvgids.nl/">De TV gids</a></li>
@@ -533,148 +296,127 @@
                         </li>
                         <li><a href="https://tv.pagina.nl/">(meer TV)</a></li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="verkeers_informatie"></a>
-                    <h2>Verkeers informatie</h2>
-                    <ul>
-                        <li>
-                            <a href="https://www.anwb.nl/verkeer/popup_regioverkeerssituatie_rotterdam.nl.html">Files
-                                ANWB</a>
-                        </li>
-                        <li>
-                            <a href="https://mydrive.tomtom.com/nl_nl/">TomTom mydrive</a>
-                        </li>
-                        <li><a href="https://www.traphic.nl">Traphic.nl</a></li>
-                        <li>
-                            <a href="https://www.flightradar24.com">Live Luchtvaart</a>
-                        </li>
-                        <li>
-                            <a href="https://www.marinetraffic.com">Live Scheepvaart</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="ov"></a>
-                    <h2>OV</h2>
-                    <ul>
-                        <li><a href="https://www.ov-chipkaart.nl/">OV Chipkaart</a></li>
-                        <li><a href="https://www.ret.nl/">RET</a></li>
-                        <li><a href="https://www.ns.nl">NS-Reisplanner</a></li>
-                        <li><a href="https://www.9292ov.nl/">OV-Reisplanner</a></li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="telefonie"></a>
-                    <h2>Telefonie</h2>
-                    <ul>
-                        <li><a href="https://www.kpn.com">KPN.com</a></li>
-                        <li>
-                            <a href="https://www.detelefoongids.nl">Tel. Nr. zoeken</a>
-                        </li>
-                        <li><a href="https://telecom.pagina.nl/">(meer telecom)</a></li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="uitgaan"></a>
-                    <h2>Uitgaan</h2>
-                    <ul>
-                        <li><a href="https://www.pathe.nl">Path&eacute;.nl</a></li>
-                        <li><a href="https://www.vuecinemas.nl/">Vue cinemas</a></li>
-                        <li><a href="https://www.thefork.nl/">Restaurant Nederland</a></li>
-                        <li><a href="https://www.tripadvisor.com">Tripadvisor</a></li>
-                    </ul>
-                </div>
-
-
-                <div class="linkbox">
-                    <a name="natuur"></a>
-                    <h2>Natuur</h2>
-                    <ul>
-                        <li>
-                            <a href="https://www.zuidhollandslandschap.nl/">Zuid Hollands landschap</a>
-                        </li>
-                        <li>
-                            <a href="https://www.natuurmonumenten.nl/">Natuur monumenten</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="digitale_fotografie"></a>
-                    <h2>Digitale fotografie</h2>
-                    <ul>
-                        <li><a href="https://www.fotohart.nl/">Fotohart Maassluis</a></li>
-                        <li><a href="https://www.dpreview.com/">DPReview.com</a></li>
-                        <li>
-                            <a href="https://www.steves-digicams.com">Steve's Digicam</a>
-                        </li>
-                    </ul>
-                </div>
-
-
             </div>
-            <div class="grid-item">
-                <!-- <div class="column"> -->
-
-
-                <div class="linkbox">
-                    <a name="streaming_video"></a>
-                    <h2>Streaming video</h2>
-                    <ul>
-                        <li><a href="https://www.youtube.com">YouTube</a></li>
-                        <li><a href="https://www.netflix.com">Netflix</a></li>
-                        <li><a href="https://tv.kpn.com/">KPN TV (interactief)</a></li>
-                        <li><a href="https://odysee.com/">Odysee</a></li>
-                        <li><a href="https://www.uitzendinggemist.nl">NPO Start</a></li>
-                        <li><a href="https://www.npo.nl/live/nederland-1">Nederland 1</a></li>
-                        <li><a href="https://www.npo.nl/live/nederland-2">Nederland 2</a></li>
-                        <li><a href="https://www.npo.nl/live/npo-3">Nederland 3</a></li>
-                        <li><a href="https://www.filmon.tv">FilmOnTV</a></li>
-                        <li><a href="https://www.kijkdirect.nl">Kijkdirect.nl</a></li>
-                        <li><a href="https://nos.nl/nieuws/">NOS Journaal</a></li>
-                        <li><a href="https://www.dailymotion.com">Daily motion</a></li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="nieuws"></a>
-                    <h2>Nieuws (NL)</h2>
-                    <ul>
-                        <li><a href="https://www.ad.nl">AD.nl</a></li>
-                        <li><a href="https://www.nu.nl">NU.nl</a></li>
-                        <li><a href="https://nos.nl/nieuws/">NOS nieuws</a></li>
-                        <li><a href="https://www.tweakers.net">Tweakers.net</a></li>
-                    </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="webstorage"></a>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="usenet"></a>
+                <h2>Usenet</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.bierdopje.com">Bierdopje</a>(serie info)
+                    </li>
+                    <li>
+                        <a href="https://www.binsearch.info">Binsearch.info</a> (nzb's)
+                    </li>
+                    <li><a href="https://www.nzbindex.nl">NZBIndex.nl</a> (nzb's)</li>
+                    <li>
+                        <a href="https://www.nzbserver.com/">NZBServer.com</a> (Spots)
+                    </li>
+                    <li><a href="https://sabnzbd.org/">SABnzb</a> (tool)</li>
+                    <li>
+                        <a href="https://www.spot-net.nl/spotlite/">Spotlite</a> (tool)
+                    </li>
+                    <li><a href="https://www.spot-net.nl/">Spotnet</a> (tool)</li>
+                    <li><a href="https://www.filebot.net/">Filebot</a> (renamer)</li>
+                    <li>
+                        <a
+                            href="https://www.opensubtitles.org/nl/search/sublanguageid-dut,eng">Opensubtitles.org</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="webstorage"></a>
                     <h2>Webstorage</h2>
                     <ul>
                         <li><a href="https://www.dropbox.com">Dropbox</a></li>
                         <li><a href="https://drive.google.com/">Google Drive</a></li>
-                        <li>
-                            <a href="https://onedrive.live.com/">Microsoft Onedrive</a>
-                        </li>
+                        <li><a href="https://onedrive.live.com/">Microsoft Onedrive</a></li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="file_transfer"></a>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="bouwmarkten"></a>
+                    <h2>Bouwmarkten</h2>
+                    <ul>
+                        <li><a href="https://www.formido.nl">Formido</a></li>
+                        <li><a href="https://www.gamma.nl/">Gamma</a></li>
+                        <li><a href="https://www.hornbach.nl">Hornbach</a></li>
+                        <li><a href="https://www.karwei.nl">Karwei</a></li>
+                        <li><a href="https://www.praxis.nl">Praxis</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="winkels"></a>
+                    <h2>Winkels</h2>
+                    <ul>
+                        <li><a href="https://www.allekabels.nl">Allekabels</a></li>
+                        <li><a href="https://www.alternate.nl/html/index.html">Alternate</a></li>
+                        <li><a href="https://www.banggood.com">Banggood</a></li>
+                        <li><a href="https://www.bcc.nl">BCC</a></li>
+                        <li><a href="https://www.bol.com">Bol.com</a></li>
+                        <li><a href="https://www.correct.com">Correct</a></li>
+                        <li><a href="https://www.conrad.nl">Conrad</a></li>
+                        <li><a href="https://www.coolblue.nl">Coolblue</a></li>
+                        <li><a href="https://www.dx.com/">DealExtreme</a></li>
+                        <li><a href="https://www.daka.nl/">Daka</a></li>
+                        <li><a href="https://www.foka.nl">Foka</a></li>
+                        <li><a href="https://www.hema.nl">HEMA</a></li>
+                        <li><a href="https://www.ibood.com/nl/nl/">IBood</a></li>
+                        <li><a href="https://www.ikea.nl">IKEA</a></li>
+                        <li><a href="https://www.opus.nl">Opus (online)</a></li>
+                        <li><a href="https://www.wehkamp.nl">Wehkamp</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="supermarkten"></a>
+                    <h2>Supermarkten</h2>
+                    <ul>
+                        <li><a href="https://www.ah.nl">AH Albert Heijn </a></li>
+                        <li><a href="https://www.aldi.nl">Aldi</a></li>
+                        <li>
+                            <a href="https://www.biernet.nl/bier/aanbiedingen">Bier aanbiedingen
+                            </a>
+                        </li>
+                        <li><a href="https://www.hoogvliet.com">Hoogvliet</a></li>
+                        <li><a href="https://www.jumbo.com">Jumbo</a></li>
+                        <li><a href="https://www.lidl.nl">Lidl</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="verkeers_informatie"></a>
+                    <h2>Verkeers informatie</h2>
+                    <ul>
+                        <li><a href="https://www.anwb.nl/verkeer/popup_regioverkeerssituatie_rotterdam.nl.html">Files ANWB</a></li>
+                        <li><a href="https://mydrive.tomtom.com/nl_nl/">TomTom mydrive</a></li>
+                        <li><a href="https://www.traphic.nl">Traphic.nl</a></li>
+                        <li><a href="https://www.flightradar24.com">Live Luchtvaart</a></li>
+                        <li><a href="https://www.marinetraffic.com">Live Scheepvaart</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="file_transfer"></a>
                     <h2>File Transfer</h2>
                     <ul>
                         <li><a href="https://send.firefox.com/">Firefox send</a></li>
                         <li><a href="https://www.wetransfer.com/">We transfer</a></li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="info_techniek"></a>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="info_techniek"></a>
                     <h2>Info techniek</h2>
                     <ul>
                         <li><a href="https://www.allpinouts.org">Connector pinout</a></li>
@@ -683,84 +425,106 @@
                             <a href="https://www.subnet-calculator.com">Netwerk Calculator</a>
                         </li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="providers"></a>
-                    <h2>Providers</h2>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="linux_distributies"></a>
+                    <h2>Linux Distributies</h2>
                     <ul>
-                        <li><a href="https://www.caiway.nl">Caiway</a></li>
-                        <li><a href="https://www.kpn.com/">KPN</a></li>
-                        <li><a href="https://www.tele2.nl">Tele2</a></li>
-                        <li><a href="https://www.ziggo.nl">Ziggo</a></li>
-                        <li></li>
-                        <li><a href="https://www.internetten.nl">Internetten</a></li>
-                        <li><a href="https://www.ikoula.nl/nl">Ikoula (hosting)</a></li>
+                        <li><a href="https://linuxmint.com/">LinuxMint</a></li>
+                        <li><a href="https://clearlinux.org">ClearLinux</a></li>
+                        <li><a href="https://www.debian.org/index.nl.html">Debian</a></li>
+                        <li><a href="https://www.ubuntu.com/">Ubuntu</a></li>
+                        <li><a href="https://www.kubuntu.org/">Kubuntu</a></li>
+                        <li><a href="https://ubuntu-mate.org/">Ubuntu mate</a></li>
+                        <li><a href="https://xubuntu.org/">Xubuntu</a></li>
+                        <li><a href="https://elementary.io/">Elementary OS</a></li>
+                        <li><a href="https://nl.opensuse.org/">Open Suse</a></li>
+                        <li><a href="https://getfedora.org/">Fedora</a></li>
+                        <li><a href="https://www.archlinux.org/">Arch</a></li>
+                        <li><a href="https://endeavouros.com/">Endeavour OS</a></li>
+                        <li><a href="https://manjaro.org/">Manjaro</a></li>
+                        <li><a href="https://www.redhat.com/en">Redhat</a></li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="webmail"></a>
-                    <h2>Webmail</h2>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="ov"></a>
+                    <h2>OV</h2>
                     <ul>
-                        <li><a href="https://webmail.kpnmail.nl/">KPN-webmail</a></li>
+                        <li><a href="https://www.ov-chipkaart.nl/">OV Chipkaart</a></li>
+                        <li><a href="https://www.ret.nl/">RET</a></li>
+                        <li><a href="https://www.ns.nl">NS-Reisplanner</a></li>
+                        <li><a href="https://www.9292ov.nl/">OV-Reisplanner</a></li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="kaartje_sturen"></a>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="usenet_providers"></a>
+                    <h2>Usenet Providers</h2>
+                    <ul>
+                        <li><a href="https://eweka.nl/">Eweka</a></li>
+                        <li><a href="https://www.pureusenet.nl/">Pure Usenet</a></li>
+                        <li><a href="https://www.sunnyusenet.com/">Sunny Usenet</a></li>
+                        <li><a href="https://www.xsusenet.com">XSusenet</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="telefonie"></a>
+                    <h2>Telefonie</h2>
+                    <ul>
+                        <li><a href="https://www.kpn.com">KPN.com</a></li>
+                        <li>
+                            <a href="https://www.detelefoongids.nl">Tel. Nr. zoeken</a>
+                        </li>
+                        <li><a href="https://telecom.pagina.nl/">(meer telecom)</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+                <a name="kaartje_sturen"></a>
                     <h2>Kaartje sturen?</h2>
                     <ul>
                         <li><a href="https://www.greetz.nl">Greetz</a></li>
                         <li><a href="https://kaartenservice.tntpost.nl">TNT post</a></li>
                     </ul>
-                </div>
-
-                <div class="linkbox">
-                    <a name="energie"></a>
-                    <h2>Energie</h2>
-                    <ul>
-                        <li><a href="https://www.eneco.nl">Eneco</a></li>
-                        <li><a href="https://www.essent.nl">Essent</a></li>
-                        <li><a href="https://www.gdfsuez.nl/">GDF Suez</a></li>
-                        <li><a href="https://www.nle.nl">Nederlandse Ener. Mat.</a></li>
-                        <li><a href="https://www.nuon.nl">Nuon</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
-        <footer class="grid-center"><img src="images/design_by.png" alt="Design by SandKar" /></footer>
+        <div class="child">
+            <div class="linkbox">
+            </div>
         </div>
+        <div class="child">
+            <div class="linkbox">
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+            </div>
+        </div>
+        <div class="child">
+            <div class="linkbox">
+            </div>
+        </div>
+    </div>
 
 </body>
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script>
-    //Code for hamburger menu
-    $( "a.burger-nav" ).click(function() {
-        $( "header navigation ul" ).toggleClass( "open" );
-    });
-
-    //Code for home button
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-        $( "header navigation ul" ).removeClass( "open" );
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-    </script>
-
 </html>

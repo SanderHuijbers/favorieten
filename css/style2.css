@@ -1,0 +1,398 @@
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+}
+
+/* Grid part */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+.grid-center {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+/* End grid part */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: transparent;
+  opacity: 0.5;
+  cursor: pointer;
+  padding: 1px;
+  transition: 0.3s;
+}
+
+#myBtn:hover {
+   opacity: 0.7;
+}
+
+header titlebar h1 {
+  background-color: #fff;
+  text-align: center;
+  height: 70px;
+  box-shadow: 0px 5px 5px #444;
+  opacity: 0.7;
+  margin-bottom: 16px;
+  width: 100%;
+  padding-top: 20px;
+  font-size: 2.5em;
+}
+
+header navigation ul {
+  display: none;
+}
+
+header navigation h1 {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+#outerWrapper {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: -20px;
+  margin-left: auto;
+}
+.header {
+  background-color: #fff;
+  text-align: center;
+  height: 70px;
+  box-shadow: 0px 5px 5px #444;
+  opacity: 0.7;
+  margin-bottom: 16px;
+  width: 100%;
+  padding-top: 20px;
+  font-size: 2.5em;
+}
+
+hidden_navigation {
+  display: block;
+}
+
+input[type="text"].google,
+select,
+textarea {
+  width: 75%;
+  height: 30px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 22px;
+  resize: vertical;
+  background-image: url(../images/site/google.jpg);
+  background-repeat: no-repeat;
+  background-position: 8px 7px;
+  text-indent: 40px;
+  margin-bottom: -6px;
+}
+
+.duckduckgo {
+  width: 98%;
+  height: 40px;
+  padding: 0px;
+  resize: vertical;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.knop {
+  padding: 10px;
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.knop:hover {
+  background-color: #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  width: 150px;
+  border-radius: 8px;
+}
+
+#noOverlap {
+  clear: both;
+  height: 20px;
+}
+
+.linkbox {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 5px 5px 5px #444;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  margin-left: 14px;
+  font-size: 20px;
+  width: 250px;
+  border-radius: 10px 30px 15px;
+  border: 1px solid #ccc;
+}
+.linkbox:hover {
+  box-shadow: 8px 8px 15px #444;
+  border: 1px solid #666;
+}
+
+a:link,
+a:visited {
+  color: #333;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.linkbox h2 {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  font-size: 1.3em;
+}
+.radiostream {
+  width: 90%;
+  overflow: auto;
+}
+.radiostreamwebpage {
+  width: 175px;
+  float: left;
+  margin-bottom: 0.5em;
+}
+.radiostreambuttons {
+  width: 25px;
+  float: right;
+  text-align: right;
+}
+
+/* MEDIA QUERIES */
+
+/* 1200 */
+@media screen and (max-width: 1200px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
+  .grid-center {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .linkbox {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 5px 5px 5px #444;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    margin-left: 4px;
+    font-size: 20px;
+    width: 250px;
+    border-radius: 10px 30px 15px;
+  }
+
+  .linkbox:hover {
+    transform: none;
+  }
+}
+
+/* Tablets */
+
+@media screen and (max-width: 640px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    grid-gap: 20px;
+    justify-content: center;
+  }
+
+  .grid-center {
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    width: 75%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  .knop {
+    padding: 10px;
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+
+  .knop:hover {
+    background-color: #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 8px;
+  }
+}
+
+/* Mobiles */
+
+@media screen and (max-width: 480px) {
+  .burger-nav {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(../images/site/burger-nav-dark.png) no-repeat 2% center;
+    cursor: pointer;
+  }
+
+header navigation h1 {
+    background-color: #fff;
+    text-decoration: none;
+    opacity: 0.7;
+    height: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    font-size: 2em;
+    padding-top: 10px;
+  }
+
+header titlebar{
+    display: none;
+}
+
+header navigation ul {
+  display: block;
+    overflow: hidden;
+    background: url(../images/site/10x10_pixel_wit_10_procent.png);
+    height: 0;
+}
+header navigation a h1 {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 6px;
+    padding-left: 24px;
+}
+
+header navigation ul.open{
+    height: auto;
+}
+
+header navigation ul.close{
+  height: 0px;
+}
+
+header navigation ul li{
+    background-color: rgba(255, 255, 255, 0.7);
+    float: none;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+}
+header navigation ul li a{
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #404040;
+    display: block;
+    margin: 0;
+}
+
+  .duckduckgo {
+    width: 98%;
+    padding-top: 12px;
+  }
+
+
+  .linkbox {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 3px 3px 3px #444;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-size: 20px;
+    width: 300px;
+    border-radius: 5px 15px 8px;
+  }
+
+  .linkbox:hover {
+    transform: none;
+  }
+
+  .linkbox li {
+    margin-bottom: 0.5em;
+  }
+
+  input[type="text"],
+  select,
+  textarea {
+    width: 75%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  .knop {
+    padding: 10px;
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+
+  .knop:hover {
+    background-color: #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    width: 150px;
+    border-radius: 8px;
+  }
+}
