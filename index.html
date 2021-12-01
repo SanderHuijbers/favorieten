@@ -99,13 +99,16 @@
 </head>
 
 <body onload="document.body.background = image">
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/site/home_black_192x192.png"></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img
+            src="./images/site/home_black_192x192.png"></button>
     <header>
         <titlebar>
             <h1>Sandkar's Favorieten</h1>
         </titlebar>
         <navigation>
-            <a class="burger-nav"><h1>Sandkar's Favorieten</h1></a>
+            <a class="burger-nav">
+                <h1>Sandkar's Favorieten</h1>
+            </a>
             <ul>
                 <li><a target="_self" href="#sandkar_sites">Sandkar sites</a></li>
                 <li><a target="_self" href="#streaming_audio">Streaming audio</a></li>
@@ -333,6 +336,16 @@
                                     <li>
                                         <a href="https://www.nhc.noaa.gov/">National Hurricane Center</a>
                                     </li>
+                                </ul>
+                            </div>
+                            <div class="linkbox">
+                                <a name="nieuws"></a>
+                                <h2>Nieuws (NL)</h2>
+                                <ul>
+                                    <li><a href="https://www.ad.nl">AD.nl</a></li>
+                                    <li><a href="https://www.nu.nl">NU.nl</a></li>
+                                    <li><a href="https://nos.nl/nieuws/">NOS nieuws</a></li>
+                                    <li><a href="https://www.tweakers.net">Tweakers.net</a></li>
                                 </ul>
                             </div>
                             <div class="linkbox">
@@ -603,16 +616,7 @@
                                 </ul>
                             </div>
 
-                            <div class="linkbox">
-                                <a name="nieuws"></a>
-                                <h2>Nieuws (NL)</h2>
-                                <ul>
-                                    <li><a href="https://www.ad.nl">AD.nl</a></li>
-                                    <li><a href="https://www.nu.nl">NU.nl</a></li>
-                                    <li><a href="https://nos.nl/nieuws/">NOS nieuws</a></li>
-                                    <li><a href="https://www.tweakers.net">Tweakers.net</a></li>
-                                </ul>
-                            </div>
+
                             <div class="linkbox">
                                 <a name="webstorage"></a>
                                 <h2>Webstorage</h2>
@@ -693,8 +697,8 @@
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>
     //Code for hamburger menu
-    $( "a.burger-nav" ).click(function() {
-        $( "header navigation ul" ).toggleClass( "open" );
+    $("a.burger-nav").click(function () {
+        $("header navigation ul").toggleClass("open");
     });
 
     //Code for home button
@@ -702,21 +706,22 @@
     var mybutton = document.getElementById("myBtn");
 
     // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
+    window.onscroll = function () { scrollFunction() };
 
     function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-        $( "header navigation ul" ).removeClass( "open" );
-      } else {
-        mybutton.style.display = "none";
-      }
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            $("header navigation ul").removeClass("open");
+        } else {
+            mybutton.style.display = "none";
+        }
     }
 
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
-    </script>
+</script>
+
 </html>
