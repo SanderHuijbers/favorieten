@@ -45,3 +45,9 @@ a:hover {
 li {
   padding: 5px;
 }
+
+.column {
+  column-width: 300px;
+  text-align: left;
+  padding: 30px;
+}
