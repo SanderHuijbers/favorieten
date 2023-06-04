@@ -9,10 +9,12 @@
   padding: 0;
   margin: 0;
 }
+
 html,
 body {
   height: 100%;
 }
+
 body {
   font-family: Verdana, Geneva, sans-serif;
   margin: 0px;
@@ -34,6 +36,7 @@ body {
   grid-column-start: 1;
   grid-column-end: 5;
 }
+
 /* End grid part */
 
 #myBtn {
@@ -52,7 +55,7 @@ body {
 }
 
 #myBtn:hover {
-   opacity: 0.7;
+  opacity: 0.7;
 }
 
 header titlebar h1 {
@@ -88,6 +91,7 @@ li {
   margin-bottom: -20px;
   margin-left: auto;
 }
+
 .header {
   background-color: #fff;
   text-align: center;
@@ -163,6 +167,7 @@ textarea {
   border-radius: 10px 30px 15px;
   border: 1px solid #ccc;
 }
+
 .linkbox:hover {
   box-shadow: 8px 8px 15px #444;
   border: 1px solid #666;
@@ -174,10 +179,12 @@ a:visited {
   text-decoration: none;
   font-size: 0.9em;
 }
+
 a:hover {
   color: #000;
   text-decoration: underline;
 }
+
 .linkbox h2 {
   margin-top: 0px;
   margin-right: 0px;
@@ -185,15 +192,18 @@ a:hover {
   margin-left: 0px;
   font-size: 1.3em;
 }
+
 .radiostream {
   width: 90%;
   overflow: auto;
 }
+
 .radiostreamwebpage {
   width: 175px;
   float: left;
   margin-bottom: 0.5em;
 }
+
 .radiostreambuttons {
   width: 25px;
   float: right;
@@ -292,7 +302,7 @@ a:hover {
     cursor: pointer;
   }
 
-header navigation h1 {
+  header navigation h1 {
     background-color: #fff;
     text-decoration: none;
     opacity: 0.7;
@@ -303,46 +313,48 @@ header navigation h1 {
     padding-top: 10px;
   }
 
-header titlebar{
+  header titlebar {
     display: none;
-}
+  }
 
-header navigation ul {
-  display: block;
+  header navigation ul {
+    display: block;
     overflow: hidden;
     background: url(../images/site/10x10_pixel_wit_10_procent.png);
     height: 0;
-}
-header navigation a h1 {
+  }
+
+  header navigation a h1 {
     display: block;
     text-align: center;
     font-size: 18px;
     padding-top: 6px;
     padding-left: 24px;
-}
+  }
 
-header navigation ul.open{
+  header navigation ul.open {
     height: auto;
-}
+  }
 
-header navigation ul.close{
-  height: 0px;
-}
+  header navigation ul.close {
+    height: 0px;
+  }
 
-header navigation ul li{
+  header navigation ul li {
     background-color: rgba(255, 255, 255, 0.7);
     float: none;
     text-align: left;
     width: 100%;
     margin: 0;
-}
-header navigation ul li a{
+  }
+
+  header navigation ul li a {
     color: #fff;
     padding: 10px;
     border-bottom: 1px solid #404040;
     display: block;
     margin: 0;
-}
+  }
 
   .duckduckgo {
     width: 98%;

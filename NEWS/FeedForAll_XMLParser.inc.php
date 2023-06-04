@@ -1718,5 +1718,3 @@ class baseParserClass extends baseParserClassWithExtensions {
     $this->$parentClass($operateAs);
   }
 }
-
-?>

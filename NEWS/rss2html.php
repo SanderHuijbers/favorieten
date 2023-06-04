@@ -1273,5 +1273,3 @@ if (!isset($_REQUEST["buildURL"])) {
     }
   }
 }
-
-?>

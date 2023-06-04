@@ -102,27 +102,30 @@
 <!--Einde header2 -->
 
 <body onload="document.body.background = image">
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="./images/site/home_black_192x192.png"></button>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img
+            src="./images/site/home_black_192x192.png"></button>
     <div id="outerWrapper">
         <header>
-                <titlebar>
+            <titlebar>
+                <h1>Sandkar's Favorieten</h1>
+            </titlebar>
+            <navigation>
+                <a class="burger-nav">
                     <h1>Sandkar's Favorieten</h1>
-                </titlebar>
-                <navigation>
-                    <a class="burger-nav"><h1>Sandkar's Favorieten</h1></a>
-                    <ul>
-                        <li><a target="_self" href="#sandkar_sites">Sandkar sites</a></li>
-                        <li><a target="_self" href="#streaming_audio">Streaming audio</a></li>
-                        <li><a target="_self" href="#linux_distributies">Linux Distributies</a></li>
-                        <li><a target="_self" href="#google">Google</a></li>
-                        <li><a target="_self" href="#bouwmarkten">Bouwmarkten</a></li>
-                        <li><a target="_self" href="#weer">Het weer</a></li>
-                        <li><a target="_self" href="#winkels">Winkels</a></li>
-                        <li><a target="_self" href="#supermarkten">Supermarkten</a></li>
-                        <li><a target="_self" href="#nieuws">Het nieuws</a></li>
-                        <li><a target="_self" href="#streaming_video">Streaming video</a></li>
-                    </ul>
-                </navigation>
+                </a>
+                <ul>
+                    <li><a target="_self" href="#sandkar_sites">Sandkar sites</a></li>
+                    <li><a target="_self" href="#streaming_audio">Streaming audio</a></li>
+                    <li><a target="_self" href="#linux_distributies">Linux Distributies</a></li>
+                    <li><a target="_self" href="#google">Google</a></li>
+                    <li><a target="_self" href="#bouwmarkten">Bouwmarkten</a></li>
+                    <li><a target="_self" href="#weer">Het weer</a></li>
+                    <li><a target="_self" href="#winkels">Winkels</a></li>
+                    <li><a target="_self" href="#supermarkten">Supermarkten</a></li>
+                    <li><a target="_self" href="#nieuws">Het nieuws</a></li>
+                    <li><a target="_self" href="#streaming_video">Streaming video</a></li>
+                </ul>
+            </navigation>
         </header>
         <div class="grid-container">
             <header class="grid-center">
@@ -130,7 +133,8 @@
                     <input class="google" type="text" name="q" maxlength="255" />
                     <input type="hidden" name="hl" value="nl" /> <br />
                 </form>--->
-                <iframe class="duckduckgo" src="https://duckduckgo.com/search.html?kn=1&prefill=Zoek met DuckDuckGo"></iframe>
+                <iframe class="duckduckgo"
+                    src="https://duckduckgo.com/search.html?kn=1&prefill=Zoek met DuckDuckGo"></iframe>
                 <br />
 
             </header>
@@ -516,7 +520,9 @@
                         <li><a href="https://www.tvgids.nl/">De TV gids</a></li>
                         <li><a href="https://nos.nl/teletekst/">Teletekst</a></li>
                         <li><a href="https://www.filmon.com/">Films op TV</a></li>
-                        <li><hr /></li>
+                        <li>
+                            <hr />
+                        </li>
                         <li><a href="https://www.bbc.co.uk/tv">BBC</a></li>
                         <li>
                             <a href="https://www.discoverychannel.nl/_listings/">Discovery Channel</a>
@@ -526,7 +532,8 @@
                             <a href="https://portal.omroep.nl">Publieke Omroep</a>(NL)
                         </li>
                         <li>
-                            <a href="https://www.vrt.be">Publieke Omroep</a> (B)</li>
+                            <a href="https://www.vrt.be">Publieke Omroep</a> (B)
+                        </li>
                         <li><a href="https://www.rtl.nl">RTL</a> (NL)<br /></li>
                         <li>
                             <a href="https://www.travelchannel.co.uk/ontv/euroschedule.asp">Travel Channel</a>
@@ -730,14 +737,14 @@
             </div>
         </div>
         <footer class="grid-center"><img src="images/design_by.png" alt="Design by SandKar" /></footer>
-        </div>
+    </div>
 
 </body>
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>
     //Code for hamburger menu
-    $( "a.burger-nav" ).click(function() {
-        $( "header navigation ul" ).toggleClass( "open" );
+    $("a.burger-nav").click(function () {
+        $("header navigation ul").toggleClass("open");
     });
 
     //Code for home button
@@ -745,22 +752,22 @@
     var mybutton = document.getElementById("myBtn");
 
     // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
+    window.onscroll = function () { scrollFunction() };
 
     function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-        $( "header navigation ul" ).removeClass( "open" );
-      } else {
-        mybutton.style.display = "none";
-      }
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+            $("header navigation ul").removeClass("open");
+        } else {
+            mybutton.style.display = "none";
+        }
     }
 
     // When the user clicks on the button, scroll to the top of the document
     function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
-    </script>
+</script>
 
 </html>

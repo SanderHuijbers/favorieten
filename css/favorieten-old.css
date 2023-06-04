@@ -9,12 +9,15 @@
 	padding: 0;
 	margin: 0;
 }
+
 body {
 	font: 62.5% Verdana, Geneva, sans-serif;
 }
+
 .mainWrapper {
 	width: 100%;
 }
+
 #MainTable {
 	margin: 1.6em auto 2em;
 	width: 800px;
@@ -26,6 +29,7 @@ body {
 	-webkit-box-shadow: 0px 0px 14px #000000;
 	box-shadow: 0px 0px 14px #000000;
 }
+
 #header1 {
 	width: 800px;
 	height: 96px;
@@ -37,12 +41,14 @@ body {
 	text-align: center;
 	margin-bottom: 25px;
 }
+
 form input {
 	font-size: 1.2em;
 	height: 1.6em;
 	vertical-align: middle;
 	border: thin ridge #CCC;
 }
+
 .knop {
 	font-weight: normal;
 	text-transform: uppercase;
@@ -59,6 +65,7 @@ form input {
 	border-radius: 7px;
 	border: 1px solid #777;
 }
+
 .knop:hover {
 	font-weight: normal;
 	text-transform: uppercase;
@@ -67,26 +74,32 @@ form input {
 	width: 80px;
 	background: #999;
 }
+
 #itemWrapper {
 	width: 750px;
 	margin: 0px auto;
 }
+
 .column {
 	float: left;
 	width: 250px;
 }
+
 .columnLeft {
 	float: left;
 	width: 250px;
 }
+
 .columnMiddle {
 	float: left;
 	width: 250px;
 }
+
 .columnRight {
 	float: left;
 	width: 250px;
 }
+
 .itemHeader {
 	margin: 0px auto;
 	width: 197px;
@@ -110,7 +123,9 @@ form input {
 	padding-top: 10px;
 	border-bottom: 1px solid #7F807F;
 }
-.itemContent a:link, .itemContent a:visited {
+
+.itemContent a:link,
+.itemContent a:visited {
 	font-size: 1.2em;
 	text-decoration: none;
 	color: #333;
@@ -121,20 +136,24 @@ form input {
 	text-decoration: underline;
 	font-size: 1.2em;
 }
+
 .radiostream {
 	width: 176px;
 	overflow: auto;
 }
+
 .radiostreamwebpage {
 	width: 124px;
 	float: left;
 	margin-bottom: .5em;
 }
+
 .radiostreambuttons {
 	width: 50px;
 	float: right;
 	text-align: right;
 }
+
 .radiostreambuttons a img {
 	padding-right: 5px;
 }
@@ -145,6 +164,7 @@ form input {
 	clear: both;
 	text-align: center;
 }
+
 #footer1 img {
 	padding-bottom: 12px;
 }
@@ -161,6 +181,7 @@ form input {
 	-webkit-border-radius: 0px 0px 14px 14px;
 	border-radius: 0px 0px 14px 14px;
 }
+
 #footer2 p {
 	color: #FFF;
 }

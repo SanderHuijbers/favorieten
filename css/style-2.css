@@ -10,42 +10,42 @@
   margin: 0;
 }
 
-  @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: system-ui, sans-serif;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+}
 
-  h2 {
-    margin: 0;
-  }
+h2 {
+  margin: 0;
+}
 
-  ul,
-  ol {
-    margin: 0;
-    padding: 0;
-  }
-  
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background: transparent;
-    opacity: 0.5;
-    cursor: pointer;
-    padding: 1px;
-    transition: 0.3s;
-  }
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
 
-  #myBtn:hover {
-     opacity: 0.7;
-  }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background: transparent;
+  opacity: 0.5;
+  cursor: pointer;
+  padding: 1px;
+  transition: 0.3s;
+}
+
+#myBtn:hover {
+  opacity: 0.7;
+}
 
 .linkbox {
   background-color: rgba(255, 255, 255, 0.7);
@@ -60,6 +60,7 @@
   border-radius: 10px 30px 15px;
   border: 1px solid #ccc;
 }
+
 .linkbox:hover {
   /* box-shadow: 8px 8px 15px #444; */
   border: 1px solid #666;
@@ -72,10 +73,12 @@ a:visited {
   text-decoration: none;
   font-size: 0.9em;
 }
+
 a:hover {
   color: #000;
   text-decoration: underline;
 }
+
 .linkbox h2 {
   margin-top: 0px;
   margin-right: 0px;
@@ -110,35 +113,37 @@ li {
 }
 
 header titlebar h1 {
- background-color: #fff;
- text-align: center;
- height: 70px;
- box-shadow: 0px 5px 5px #444;
- opacity: 0.7;
- margin-top: 0px;
- margin-bottom: 16px;
- width: 100%;
- padding-top: 20px;
- font-size: 2.5em;
+  background-color: #fff;
+  text-align: center;
+  height: 70px;
+  box-shadow: 0px 5px 5px #444;
+  opacity: 0.7;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  width: 100%;
+  padding-top: 20px;
+  font-size: 2.5em;
 }
 
 header navigation ul {
- display: none;
+  display: none;
 }
 
 header navigation h1 {
- display: none;
+  display: none;
 }
 
 .radiostream {
   width: 90%;
   overflow: auto;
 }
+
 .radiostreamwebpage {
   width: 175px;
   float: left;
   margin-bottom: 0.5em;
 }
+
 .radiostreambuttons {
   width: 25px;
   float: right;
@@ -171,24 +176,24 @@ header navigation h1 {
 }
 
 .ex-container2 {
-    resize: both;
-    position: relative;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    /* box-shadow: 0 0 20px -10px hsl(187, 97%, 24%); */
-    display: grid;
-    align-items: center;
-    margin: auto;
-    /* background: white; */
-  }
+  resize: both;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  /* box-shadow: 0 0 20px -10px hsl(187, 97%, 24%); */
+  display: grid;
+  align-items: center;
+  margin: auto;
+  /* background: white; */
+}
 
 .section-container2 {
-    /* max-width: var(--pageMax); */
-    margin: 0 auto;
-    padding: 2rem 4rem;
-  }
+  /* max-width: var(--pageMax); */
+  margin: 0 auto;
+  padding: 2rem 4rem;
+}
 
 .codepen-link {
   text-align: right;
@@ -253,7 +258,7 @@ header navigation h1 {
     cursor: pointer;
   }
 
-header navigation h1 {
+  header navigation h1 {
     background-color: #fff;
     text-decoration: none;
     opacity: 0.7;
@@ -264,46 +269,48 @@ header navigation h1 {
     padding-top: 10px;
   }
 
-header titlebar{
+  header titlebar {
     display: none;
-}
+  }
 
-header navigation ul {
-  display: block;
+  header navigation ul {
+    display: block;
     overflow: hidden;
     background: url(../images/site/10x10_pixel_wit_10_procent.png);
     height: 0;
-}
-header navigation a h1 {
+  }
+
+  header navigation a h1 {
     display: block;
     text-align: center;
     font-size: 18px;
     padding-top: 6px;
     padding-left: 24px;
-}
+  }
 
-header navigation ul.open{
+  header navigation ul.open {
     height: auto;
-}
+  }
 
-header navigation ul.close{
-  height: 0px;
-}
+  header navigation ul.close {
+    height: 0px;
+  }
 
-header navigation ul li{
+  header navigation ul li {
     background-color: rgba(255, 255, 255, 0.7);
     float: none;
     text-align: left;
     width: 100%;
     margin: 0;
-}
-header navigation ul li a{
+  }
+
+  header navigation ul li a {
     color: #fff;
     padding: 10px;
     border-bottom: 1px solid #404040;
     display: block;
     margin: 0;
-}
+  }
 
   .burger-nav {
     display: block;
@@ -317,7 +324,7 @@ header navigation ul li a{
     max-width: var(--pageMax);
     margin: 0 auto;
     padding: 0.7rem;
-}
+  }
 
   .ex-container2 .section {
     font-size: 1rem;
@@ -340,6 +347,7 @@ header navigation ul li a{
   .code-container {
     font-size: 1.15rem;
   }
+
   .parent {
     width: 106%;
     height: 100%;
@@ -347,6 +355,6 @@ header navigation ul li a{
 
   header titlebar h1 {
     font-size: 1.7em;
-   }
+  }
 
 }

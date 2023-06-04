@@ -1,99 +1,111 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Email formulier</title>
-<style type="text/css">
-body {
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 62.5%;
-	background: #FFC url(images/backgrounds/stone_bg.jpg);
-}
 
-#container {
-	height: 100%;
-	width: 100%;
-	font-size: 1.6em;
-}
-#cardContainer {
-	margin: 10% auto 0px;
-	height: 400px;
-	width: 600px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
-	-moz-box-shadow: 5px 5px 9px #000000;
-	-webkit-box-shadow: 5px 5px 9px #000000;
-	box-shadow: 5px 5px 9px #000000;
-	opacity: 0.9;
-	background: #F5F5F5;
-	padding-top: 15px;
-}
-#leftTopCard {
-	float: left;
-	height: 300px;
-	width: 200px;
-	text-align: right;
-}
-#leftTopCard p {
-	margin-right: 15px;
-	height: 22px;
-}
-.zegel {
-	float: right;
-	margin-right: 15px;
-	margin-top: -5px;
-}
-#rightTopCard {
-	float: right;
-	height: 300px;
-	width: 400px;
-	text-align: left;
-}
-#rightTopCard p {
-	height: 22px;
-}
-#rightTopCard p textarea {
-	resize: none
-}
-#bottomCard {
-	clear: both;
-	width: 600px;
-	height: 100px;
-	text-align: center;
-}
-</style>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Email formulier</title>
+	<style type="text/css">
+		body {
+			font-family: Verdana, Geneva, sans-serif;
+			font-size: 62.5%;
+			background: #FFC url(images/backgrounds/stone_bg.jpg);
+		}
+
+		#container {
+			height: 100%;
+			width: 100%;
+			font-size: 1.6em;
+		}
+
+		#cardContainer {
+			margin: 10% auto 0px;
+			height: 400px;
+			width: 600px;
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			border-radius: 6px;
+			-moz-box-shadow: 5px 5px 9px #000000;
+			-webkit-box-shadow: 5px 5px 9px #000000;
+			box-shadow: 5px 5px 9px #000000;
+			opacity: 0.9;
+			background: #F5F5F5;
+			padding-top: 15px;
+		}
+
+		#leftTopCard {
+			float: left;
+			height: 300px;
+			width: 200px;
+			text-align: right;
+		}
+
+		#leftTopCard p {
+			margin-right: 15px;
+			height: 22px;
+		}
+
+		.zegel {
+			float: right;
+			margin-right: 15px;
+			margin-top: -5px;
+		}
+
+		#rightTopCard {
+			float: right;
+			height: 300px;
+			width: 400px;
+			text-align: left;
+		}
+
+		#rightTopCard p {
+			height: 22px;
+		}
+
+		#rightTopCard p textarea {
+			resize: none
+		}
+
+		#bottomCard {
+			clear: both;
+			width: 600px;
+			height: 100px;
+			text-align: center;
+		}
+	</style>
 </head>
 
 <body>
-<div id="container">
-  <div id="cardContainer">
-  <form action="../cgi-bin/FormMail.pl" method="POST">
-	<input type="hidden" name="recipient" value="info@sandkar.nl" />
-	<input type="hidden" name="subject" value="Dit is een test onderwerp" />
-	<input type="hidden" name="realname" value="Sandkar's favorieten" />
-    
-	<!-- Naar deze URL wordt de bezoeker gestuurd na het invullen van het formulier -->
-	<input type="hidden" name="redirect" value="http://www.sandkar.nl/favorieten" />
-    
-    <div id="leftTopCard">
-      <p>Uw naam:</p>
-      <p>Uw adres:</p>
-      <p>Uw email:</p>
-      <p>Uw bericht:</p>
-    </div>
-    <div id="rightTopCard">
-    <div class="zegel">
-           <img src="images/zegel.png" width="93" height="79" alt="Postzegel" /></p>
-    </div>
-        <p><input type="text" name="naam" />
-        <p><input type="text" name="adres" /></p>
-        <p><input type="text" name="e-mail" /></p>
-        <p><textarea rows="6" cols="30" name="bericht"></textarea></p>
-    </div>
-    <div id="bottomCard"><input type="reset" value=" Reset " /> <input type="submit" value=" Verzenden " /></div>
-    </form>
-  </div>
-</div>
+	<div id="container">
+		<div id="cardContainer">
+			<form action="../cgi-bin/FormMail.pl" method="POST">
+				<input type="hidden" name="recipient" value="info@sandkar.nl" />
+				<input type="hidden" name="subject" value="Dit is een test onderwerp" />
+				<input type="hidden" name="realname" value="Sandkar's favorieten" />
+
+				<!-- Naar deze URL wordt de bezoeker gestuurd na het invullen van het formulier -->
+				<input type="hidden" name="redirect" value="http://www.sandkar.nl/favorieten" />
+
+				<div id="leftTopCard">
+					<p>Uw naam:</p>
+					<p>Uw adres:</p>
+					<p>Uw email:</p>
+					<p>Uw bericht:</p>
+				</div>
+				<div id="rightTopCard">
+					<div class="zegel">
+						<img src="images/zegel.png" width="93" height="79" alt="Postzegel" /></p>
+					</div>
+					<p><input type="text" name="naam" />
+					<p><input type="text" name="adres" /></p>
+					<p><input type="text" name="e-mail" /></p>
+					<p><textarea rows="6" cols="30" name="bericht"></textarea></p>
+				</div>
+				<div id="bottomCard"><input type="reset" value=" Reset " /> <input type="submit" value=" Verzenden " />
+				</div>
+			</form>
+		</div>
+	</div>
 </body>
+
 </html>
