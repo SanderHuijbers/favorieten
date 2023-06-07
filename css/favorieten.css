@@ -28,7 +28,7 @@ ol {
   padding: 0;
 }
 
-#myBtn {
+#my-btn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -43,18 +43,17 @@ ol {
   transition: 0.3s;
 }
 
-#myBtn:hover {
+#my-btn:hover {
   opacity: 0.7;
 }
 
 .linkbox {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 70%);
   box-shadow: 5px 5px 5px #444;
   margin-bottom: 25px;
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 25px;
-  /* margin-left: 14px; */
   font-size: 20px;
   width: 87%;
   border-radius: 10px 30px 15px;
@@ -62,9 +61,8 @@ ol {
 }
 
 .linkbox:hover {
-  /* box-shadow: 8px 8px 15px #444; */
   border: 1px solid #666;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 80%);
 }
 
 a:link,
@@ -91,7 +89,7 @@ li {
   list-style-type: none;
 }
 
-#myBtn:hover {
+#my-btn:hover {
   opacity: 0.7;
 }
 
@@ -182,15 +180,12 @@ header navigation h1 {
   height: 100%;
   width: 100%;
   z-index: 2;
-  /* box-shadow: 0 0 20px -10px hsl(187, 97%, 24%); */
   display: grid;
   align-items: center;
   margin: auto;
-  /* background: white; */
 }
 
 .section-container2 {
-  /* max-width: var(--pageMax); */
   margin: 0 auto;
   padding: 2rem 4rem;
 }
@@ -239,17 +234,11 @@ header navigation h1 {
 }
 
 @media screen and (max-width: 480px) {
-  /* .ex-container2 {
-    height: 300px;
-  } */
 
   .ex-section2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
-  /* .box {
-    font-size: 1rem;
-  } */
   .burger-nav {
     display: block;
     height: 40px;
@@ -297,7 +286,7 @@ header navigation h1 {
   }
 
   header navigation ul li {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 70%);
     float: none;
     text-align: left;
     width: 100%;
