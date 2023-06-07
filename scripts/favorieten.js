@@ -2,55 +2,55 @@ random_number = Math.floor(Math.random() * 17 + 1);
 console.log(random_number);
 // Loads the appropriate image and text color based on random number.
 if (random_number == 1) {
-image = "./images/backgrounds/ravi2.jpg";
+    image = "./images/backgrounds/ravi2.jpg";
 }
 if (random_number == 2) {
-image = "./images/backgrounds/blue_bg.jpg";
+    image = "./images/backgrounds/blue_bg.jpg";
 }
 if (random_number == 3) {
-image = "./images/backgrounds/gem_bg.jpg";
+    image = "./images/backgrounds/gem_bg.jpg";
 }
 if (random_number == 4) {
-image = "./images/backgrounds/frost_bg.jpg";
+    image = "./images/backgrounds/frost_bg.jpg";
 }
 if (random_number == 5) {
-image = "./images/backgrounds/marble_bg.jpg";
+    image = "./images/backgrounds/marble_bg.jpg";
 }
 if (random_number == 6) {
-image = "./images/backgrounds/blue-sky_bg.jpg";
+    image = "./images/backgrounds/blue-sky_bg.jpg";
 }
 if (random_number == 7) {
-image = "./images/backgrounds/popcorn_bg.jpg";
+    image = "./images/backgrounds/popcorn_bg.jpg";
 }
 if (random_number == 8) {
-image = "./images/backgrounds/pinkrose_bg.jpg";
+    image = "./images/backgrounds/pinkrose_bg.jpg";
 }
 if (random_number == 9) {
-image = "./images/backgrounds/stone_bg.jpg";
+    image = "./images/backgrounds/stone_bg.jpg";
 }
 if (random_number == 10) {
-image = "./images/backgrounds/stone2_bg.jpg";
+    image = "./images/backgrounds/stone2_bg.jpg";
 }
 if (random_number == 11) {
-image = "./images/backgrounds/camouflage_bg.jpg";
+    image = "./images/backgrounds/camouflage_bg.jpg";
 }
 if (random_number == 12) {
-image = "./images/backgrounds/fire_bg.jpg";
+    image = "./images/backgrounds/fire_bg.jpg";
 }
 if (random_number == 13) {
-image = "./images/backgrounds/bricks_bg.jpg";
+    image = "./images/backgrounds/bricks_bg.jpg";
 }
 if (random_number == 14) {
-image = "./images/backgrounds/blossom_bg.jpg";
+    image = "./images/backgrounds/blossom_bg.jpg";
 }
 if (random_number == 15) {
-image = "./images/backgrounds/strawberry_bg.jpg";
+    image = "./images/backgrounds/strawberry_bg.jpg";
 }
 if (random_number == 16) {
-image = "./images/backgrounds/ravi.jpg";
+    image = "./images/backgrounds/ravi.jpg";
 }
 if (random_number == 17) {
-image = "./images/backgrounds/orange_bg.jpg";
+    image = "./images/backgrounds/orange_bg.jpg";
 }
 
 var box0101 = ' <h2>SandKar sites</h2>\
@@ -67,7 +67,7 @@ var box0101 = ' <h2>SandKar sites</h2>\
 <li><a href="https://sandkar.nl/awstats">Statistieken</a></li>\
 <li><a href="https://www.sandkar.nl/thuiswerken">Thuiswerken</a></li>\
 <li><a href="https://www.sandkar.nl/webdeveloper">Web developer</a></li>\
-</ul>'; 
+</ul>';
 var box0102 = '<h2>Streaming Audio</h2>\
 <ul>\
 <li class="radiostream"><div class="radiostreamwebpage"><a href="https://www.spotify.com/">Spotify</a></div></li>\
