@@ -100,14 +100,37 @@ li {
   margin: 0px;
 }
 
-.duckduckgo {
-  width: 70%;
+.search-engine-input {
+  box-shadow: 3px 3px 3px #666;
+  width: 50%;
   max-width: 1200px;
   height: 40px;
-  padding: 0px;
+  padding-left: 20px;
   resize: vertical;
   margin: 0px;
   overflow: hidden;
+  border-radius: 10px 0px 0px 10px;
+  border-left: 1px solid #333;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.search-engine-button {
+  box-shadow: 3px 3px 3px #666;
+  background-color: lightgreen;
+  width: 90px;
+  height: 42px;
+  padding: 0px;
+  margin: 0px;
+  margin-left: -3px;
+  border-radius: 0px 10px 10px 0px;
+  border-right: 1px solid #333;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.search-engine-button:hover {
+  background-color: rgb(49, 96, 1);
 }
 
 header titlebar h1 {
@@ -228,8 +251,12 @@ header navigation h1 {
     padding: 8rem auto;
   }
 
-  .duckduckgo {
-    width: 90%;
+  .search-engine-input {
+    width: 75%;
+  }
+
+  .search-engine-button {
+    width: 7%;
   }
 }
 
