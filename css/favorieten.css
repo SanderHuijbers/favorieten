@@ -252,11 +252,12 @@ header navigation h1 {
   }
 
   .search-engine-input {
-    width: 75%;
+    width: 65%;
   }
 
   .search-engine-button {
     width: 7%;
+    min-width: 50px;
   }
 }
 
