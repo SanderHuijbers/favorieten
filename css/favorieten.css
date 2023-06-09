@@ -117,6 +117,7 @@ li {
 
 .search-engine-button {
   box-shadow: 3px 3px 3px #666;
+  opacity: 0.8;
   background-color: lightgreen;
   width: 90px;
   height: 42px;
@@ -130,7 +131,8 @@ li {
 }
 
 .search-engine-button:hover {
-  background-color: rgb(49, 96, 1);
+  background-color: #5dd25e;
+  opacity: 0.8;
 }
 
 header titlebar h1 {
