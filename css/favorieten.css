@@ -31,8 +31,8 @@ ol {
 #my-btn {
   display: none;
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  top: 2px;
+  left: 2px;
   z-index: 99;
   border: none;
   outline: none;
@@ -296,7 +296,7 @@ header navigation h1 {
   header navigation ul {
     display: block;
     overflow: hidden;
-    background: url(../images/site/10x10_pixel_wit_10_procent.png);
+    background: #5dd25e 0.1;
     height: 0;
   }
 
