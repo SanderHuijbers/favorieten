@@ -31,7 +31,7 @@
     <meta name="theme-color" content="#ffffff" />
 </head>
 
-<script>
+<!-- <script>
     random_number = Math.floor(Math.random() * 19 + 1);
     console.log(random_number);
     // Loads the appropriate image and text color based on random number.
@@ -96,9 +96,11 @@
         image = "./images/backgrounds/heineken.jpg";
     }
     console.log(image);
-</script>
+</script> -->
 
-<body onload="document.body.background = image">
+<!-- <body onload="document.body.background = image"> -->
+<body id="body-styling">
+
     <button onclick="topFunction()" id="my-btn" title="Go to top"><img alt="home" src="./images/site/home_black_192x192.png"></button>
     <header>
         <titlebar>
@@ -696,6 +698,7 @@
         </div>
     </section>
 </body>
+<script src="./scripts/gradient_background.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script>
     //Code for hamburger menu
