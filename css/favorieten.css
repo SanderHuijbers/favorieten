@@ -279,7 +279,7 @@ header navigation h1 {
   }
 
   header navigation h1 {
-    background-color: #fff;
+    background-color: #ffffff;
     text-decoration: none;
     opacity: 0.7;
     height: 25px;
@@ -296,7 +296,7 @@ header navigation h1 {
   header navigation ul {
     display: block;
     overflow: hidden;
-    background: #5dd25e 0.1;
+    background: #cacaca10;
     height: 0;
   }
 
@@ -330,14 +330,6 @@ header navigation h1 {
     border-bottom: 1px solid #404040;
     display: block;
     margin: 0;
-  }
-
-  .burger-nav {
-    display: block;
-    height: 40px;
-    width: 100%;
-    background: url(../images/site/burger-nav-dark.png) no-repeat 2% center;
-    cursor: pointer;
   }
 
   .section-container2 {
