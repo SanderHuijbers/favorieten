@@ -49,7 +49,7 @@ ol {
 
 .linkbox {
   background-color: rgba(255, 255, 255, 0.568);
-  box-shadow: 5px 5px 5px #444;
+  box-shadow: 5px 5px 5px #1a1a1ab4;
   margin-bottom: 25px;
   padding-top: 10px;
   padding-left: 20px;
@@ -57,13 +57,14 @@ ol {
   font-size: 20px;
   width: 87%;
   border-radius: 10px 30px 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #242424b9;
+  transition: all 500ms ease-in;
 }
 
 .linkbox:hover {
-  border: 1px solid #666;
   background-color: rgba(255, 255, 255, 0.853);
   border-radius: 30px 15px 10px;
+  transition: all 200ms ease-out;
 }
 
 a:link,
