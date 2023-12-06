@@ -63,8 +63,7 @@ ol {
 
 .linkbox:hover {
   background-color: rgba(255, 255, 255, 0.853);
-  border-radius: 30px 15px 10px;
-  transition: all 200ms ease-out;
+  transition: all 100ms ease-out;
 }
 
 a:link,
