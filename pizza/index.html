@@ -5,35 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzadeeg Calculator</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 600px;
-            margin: 20px auto;
-            padding: 0 15px;
-        }
-
-        input,
-        button {
-            display: block;
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-        }
-
-        h2 {
-            margin-top: 25px;
-        }
-
-        .resultaat p {
-            margin: 5px 0;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
+    <div class="main-container">
     <h1>Pizzadeeg Calculator</h1>
 
     <p>Voer hieronder in hoeveel pizza's je wilt maken en hoe zwaar één deegbol moet zijn. De benodigde ingrediënten
@@ -52,25 +28,35 @@
     <div class="resultaat" id="resultaatDiv">
         <h2>Poolish</h2>
         <p>Bloem: <span id="bloemPoolish">0</span> g</p>
-        <p>Water: <span id="waterPoolish">0</span> g</p>
+        <p>Water: <span id="waterPoolish">0</span> ml</p>
         <p>Gist: <span id="gistPoolish">0</span> g</p>
         <p>Honing: <span id="honingPoolish">0</span> g</p>
-        <p></p>
-        <p>De bovenstaande ingredienten goed mengen in een afsluitbare container. Laat dit eerst een uur op
-            kamertemeratuur staan, en daarna nog 23uur in de koelkast laten rijzen.</p>
+        <h3>Verwerking Poolish</h3>
+        <p>De bovenstaande ingrediënten goed mengen in een afsluitbare container. Laat dit eerst een uur op
+            kamertemperatuur staan, en daarna nog 22:30 uur in de koelkast laten rijzen.</p>
 
         <h2>Hoofddeeg</h2>
         <p>Bloem: <span id="bloemHoofddeeg">0</span> g</p>
-        <p>Water: <span id="waterHoofddeeg">0</span> g</p>
+        <p>Water: <span id="waterHoofddeeg">0</span> ml</p>
         <p>Zout: <span id="zoutHoofddeeg">0</span> g</p>
-        <p></p>
-        <p>Neem de poolish 30 minuten voor het verdere verwerken uit de koelkast. </p>
-        <p>Mengen. Dubbel vouwen en drukken aan de bovenkant. Net zo vaak tot alles goed is opgenomen. Bedekken en 15
-            minuten laten rusten.</p>
-        <p>Maak een grote bal. Laat een uur rijzen.</p>
-        <p>Vormen tot een lange cilinder. In stukken snijden van 250 gram.</p>
-        <p>Maak ballen, en 2 uur rijzen.</p>
-
+        
+        <h3>Verdere verwerking</h3>
+        <p>Je hebt ongeveer 3:30 uur nodig voor je de Pizza's daadwerkelijk kan gaan bakken.</p>
+        <p>Neem de poolish 30 minuten voor het verdere verwerken uit de koelkast.</p>
+        <h4>Mengen.</h4>
+        <p>Los de poolish op in het water.</p>
+        <p>Voeg het zout toe en meng dit goed door.</p>
+        <p>Voeg de bloem toe en meng dit goed door.</p>
+        <p>Het deeg zal nu nog wat plakkerig zijn, maar dat is de bedoeling.</p>
+        <p>Stort de inhoud van je mengsel op je werkblad</p>
+        <p>Het deeg moet nu nog 10 minuten doorgekneed worden. Dit kan met de hand of met een keukenmachine.</p>
+        <h4>Vouwen en drukken</h4>
+        <p>Neem de onderkant van het deeg, en vouw dit naar de bovenkant. Druk goed aan. Draai nu het deeg een kwartslag en herhaal het vouwen.</p>
+        <p>Doe dit net zo vaak tot alles goed is opgenomen. Bedekken en 15 minuten laten rusten.</p>
+        <p>Maak er nu een grote bol van. (opbollen). Laat de bol een uur in een afgesloten schaal of container rijzen.</p>
+        <p>Maak nu <span id="aantalDeegballenTekst"></span> deegbollen van <span id="gewichtDeegbolTekst"></span> gram per stuk, en laat deze in een afgesloten container voor 2 uur rijzen.</p>
+        <p>Zorg ervoor dat er voldoende ruimte tussen de deegbollen zit zodat deze niet te veel aan elkaar gaan plakken.</p>
+    </div>
     </div>
 
     <script>
@@ -118,6 +104,10 @@
             document.getElementById('bloemHoofddeeg').textContent = bloemHoofddeeg.toFixed(2);
             document.getElementById('waterHoofddeeg').textContent = waterHoofddeeg.toFixed(2);
             document.getElementById('zoutHoofddeeg').textContent = zoutHoofddeeg.toFixed(2);
+            
+            // Nieuwe regels om het aantal en gewicht van de deegbollen te updaten
+            document.getElementById('aantalDeegballenTekst').textContent = aantalPizzas;
+            document.getElementById('gewichtDeegbolTekst').textContent = gewichtDeegbol;
         }
 
         // Voer de berekening uit bij het laden van de pagina met de standaardwaarden
