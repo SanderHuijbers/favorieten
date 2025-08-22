@@ -35,3 +35,15 @@ h2 {
 .resultaat p {
     margin: 5px 0;
 }
+
+@media screen and (max-width: 811px) {
+    .main-container {
+        max-width: 90%;
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .main-container {
+        max-width: 95%;
+        padding: 8px;
+    }
