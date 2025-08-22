@@ -10,56 +10,95 @@
 
 <body>
     <div class="main-container">
-    <h1>Pizzadeeg Calculator</h1>
+        <h1>Sander's Pizzadeeg Calculator</h1>
 
-    <p>Voer hieronder in hoeveel pizza's je wilt maken en hoe zwaar één deegbol moet zijn. De benodigde ingrediënten
-        worden automatisch berekend.</p>
+        <p>Voer hieronder in hoeveel pizza's je wilt maken en hoe zwaar één deegbol moet zijn. De benodigde ingrediënten
+            worden automatisch berekend.</p>
 
-    <label for="aantalPizzas">Aantal pizza's:</label>
-    <input type="number" id="aantalPizzas" value="10" min="1">
+        <label for="aantalPizzas">Aantal pizza's:</label>
+        <input type="number" id="aantalPizzas" value="10" min="1">
 
-    <label for="gewichtDeegbol">Gewicht per deegbol (gram):</label>
-    <input type="number" id="gewichtDeegbol" value="250" min="1">
+        <label for="gewichtDeegbol">Gewicht per deegbol (gram):</label>
+        <input type="number" id="gewichtDeegbol" value="250" min="1">
 
-    <button onclick="berekenPizzaDeeg()">Bereken ingrediënten</button>
+        <button onclick="berekenPizzaDeeg()">Bereken ingrediënten</button>
 
-    <hr>
+        <hr>
 
-    <div class="resultaat" id="resultaatDiv">
-        <h2>Poolish</h2>
-        <p>Bloem: <span id="bloemPoolish">0</span> g</p>
-        <p>Water: <span id="waterPoolish">0</span> ml</p>
-        <p>Gist: <span id="gistPoolish">0</span> g</p>
-        <p>Honing: <span id="honingPoolish">0</span> g</p>
-        <h3>Verwerking Poolish</h3>
-        <p>De bovenstaande ingrediënten goed mengen in een afsluitbare container. Laat dit eerst een uur op
-            kamertemperatuur staan, en daarna nog 22:30 uur in de koelkast laten rijzen.</p>
+        <div class="resultaat" id="resultaatDiv">
+            <h2>Poolish</h2>
+            <p>Bloem: <span id="bloemPoolish">0</span> gram</p>
+            <p>Water: <span id="waterPoolish">0</span> ml</p>
+            <p>Gist: <span id="gistPoolish">0</span> gram</p>
+            <p>Honing: <span id="honingPoolish">0</span> gram</p>
+            <h3>Verwerking Poolish</h3>
+            <p>De bovenstaande ingrediënten goed mengen in een afsluitbare container. Laat dit eerst een uur op
+                kamertemperatuur staan, en daarna nog 22:30 uur in de koelkast laten rijzen.</p>
 
-        <h2>Hoofddeeg</h2>
-        <p>Bloem: <span id="bloemHoofddeeg">0</span> g</p>
-        <p>Water: <span id="waterHoofddeeg">0</span> ml</p>
-        <p>Zout: <span id="zoutHoofddeeg">0</span> g</p>
-        
-        <h3>Verdere verwerking</h3>
-        <p>Je hebt ongeveer 3:30 uur nodig voor je de Pizza's daadwerkelijk kan gaan bakken.</p>
-        <p>Neem de poolish 30 minuten voor het verdere verwerken uit de koelkast.</p>
-        <h4>Mengen.</h4>
-        <p>Los de poolish op in het water.</p>
-        <p>Voeg het zout toe en meng dit goed door.</p>
-        <p>Voeg de bloem toe en meng dit goed door.</p>
-        <p>Het deeg zal nu nog wat plakkerig zijn, maar dat is de bedoeling.</p>
-        <p>Stort de inhoud van je mengsel op je werkblad</p>
-        <p>Het deeg moet nu nog 10 minuten doorgekneed worden. Dit kan met de hand of met een keukenmachine.</p>
-        <h4>Vouwen en drukken</h4>
-        <p>Neem de onderkant van het deeg, en vouw dit naar de bovenkant. Druk goed aan. Draai nu het deeg een kwartslag en herhaal het vouwen.</p>
-        <p>Doe dit net zo vaak tot alles goed is opgenomen. Bedekken en 15 minuten laten rusten.</p>
-        <p>Maak er nu een grote bol van. (opbollen). Laat de bol een uur in een afgesloten schaal of container rijzen.</p>
-        <p>Maak nu <span id="aantalDeegballenTekst"></span> deegbollen van <span id="gewichtDeegbolTekst"></span> gram per stuk, en laat deze in een afgesloten container voor 2 uur rijzen.</p>
-        <p>Zorg ervoor dat er voldoende ruimte tussen de deegbollen zit zodat deze niet te veel aan elkaar gaan plakken.</p>
-    </div>
+            <h2>Hoofddeeg</h2>
+            <p>Bloem: <span id="bloemHoofddeeg">0</span> gram</p>
+            <p>Water: <span id="waterHoofddeeg">0</span> ml</p>
+            <p>Zout: <span id="zoutHoofddeeg">0</span> gram</p>
+
+            <h3>Verdere verwerking</h3>
+            <p>Je hebt ongeveer 3:30 uur nodig voor je de Pizza's daadwerkelijk kan gaan bakken.</p>
+            <p>Neem de poolish 30 minuten voor het verdere verwerken uit de koelkast.</p>
+            <h4>Mengen.</h4>
+            <p>Los de poolish op in het water.</p>
+            <p>Voeg het zout toe en meng dit goed door.</p>
+            <p>Voeg de bloem toe en meng dit goed door.</p>
+            <p>Het deeg zal nu nog wat plakkerig zijn, maar dat is de bedoeling.</p>
+            <p>Stort de inhoud van je mengsel op je werkblad</p>
+            <p>Het deeg moet nu nog 10 minuten doorgekneed worden. Dit kan met de hand of met een keukenmachine.</p>
+            <h4>Vouwen en drukken</h4>
+            <p>Neem de onderkant van het deeg, en vouw dit naar de bovenkant. Druk goed aan. Draai nu het deeg een
+                kwartslag en herhaal het vouwen.</p>
+            <p>Doe dit net zo vaak tot alles goed is opgenomen. Wanneer alles eenmaal goed is opgenomen zet je een
+                schaal over het deeg, en laat je het 15 minuten rusten.</p>
+            <p>Maak er nu een grote bol van d.m.v. het opbollen van deeg. Dit doe je zodat de buitenkant van het deeg
+                mooi op spanning komt.</p>
+            <p>Doe nu de bol terug in je schaal of kom en dek het geheel goed af. Laat de bol een uur in een afgesloten
+                schaal of
+                container op kamertemperatuur rijzen.</p>
+            <p>Na het uur rijzen haal je voorzichtig de deegbol uit de kom. Zorg ervoor dat de bovenkant ook steeds de
+                bovenkant blijft. Dat geldt overigens ook voor alle vervolg stappen. Maak nu <span
+                    id="aantalDeegballenTekst"></span> deegbollen van <span id="gewichtDeegbolTekst"></span>
+                gram per stuk. Breng ook de individuele bollen mooi opspanning door ze op te bollen. Leg de bollen
+                voorzichtig in een afgesloten container en laat ze nog eens 2 uur rijzen.</p>
+            <p>Zorg ervoor dat er voldoende ruimte tussen de deegbollen zit zodat deze niet te veel aan elkaar gaan
+                plakken.</p>
+            <p>Na deze 2 uur zijn de deegbollen klaar voor gebruik. Je kan ze dan gaan uitdrukken en beleggen.</p>
+            <p>Zorg er wel voor dat je je oven en de pizzasteen ruim van te voren voorverwarm op de hoogst mogelijke
+                stand. (250-350 graden) De tijd die je hier voor nodig hebt is afhankelijk van de dikte van je
+                pizzasteen. Zorg er tevens voor dat je al je toppings gesneden klaar hebt staan voordat je het deeg gaat
+                uitdrukken.</p>
+            <p>Neem nu 1 deegbol en druk deze van binnen naar buiten uit zodat er een mooie met luchtigdeeg gevulde
+                korst ontstaat. Beleg je pizza met je favoriete toppings, en bak de pizza's af tot de korst mooi bruin
+                is.</p>
+            <p>Tip: Wanneer je oven niet zo heel hoog kan, dan kan je wellicht beter eerst de pizza uitdrukken
+                zoals eerder beschreven. Daarna doe je alvast de tomatensaus op de pizza en bak je dit eerst even
+                voor. Haal je pizza na 5 a 10 minuten uit de oven, en beleg je de pizza met de overige toppings.
+                Dit doe je om de toppings zoals bijvoorbeeld Mozzerella niet te veel te laten verbranden. Dat komt de
+                smaak
+                namelijk niet te goede. Ook mogen de groentes best een beetje knapperig blijven. Ook dat komt de smaak
+                ten goede.</p>
+            <p>Geniet ervan!</p>
+        </div>
     </div>
 
     <script>
+        // Helperfunctie om getallen netjes te formatteren
+        function formatNumber(num) {
+            // Controleert of het getal een geheel getal is (bijv. 1000)
+            // Als dit zo is, retourneer het getal zonder decimalen
+            if (num % 1 === 0) {
+                return num;
+            } else {
+                // Anders, toon het met 2 decimalen
+                return num.toFixed(2);
+            }
+        }
+
         function berekenPizzaDeeg() {
             // Stap 1: Lees de invoerwaarden
             const aantalPizzas = document.getElementById('aantalPizzas').value;
@@ -96,15 +135,15 @@
             const zoutHoofddeeg = totaalDeeg * verhoudingZout;
 
             // Stap 3: Toon de resultaten in de HTML
-            document.getElementById('bloemPoolish').textContent = bloemPoolish.toFixed(2);
-            document.getElementById('waterPoolish').textContent = waterPoolish.toFixed(2);
-            document.getElementById('gistPoolish').textContent = gistPoolish.toFixed(2);
-            document.getElementById('honingPoolish').textContent = honingPoolish.toFixed(2);
+            document.getElementById('bloemPoolish').textContent = formatNumber(bloemPoolish);
+            document.getElementById('waterPoolish').textContent = formatNumber(waterPoolish);
+            document.getElementById('gistPoolish').textContent = formatNumber(gistPoolish);
+            document.getElementById('honingPoolish').textContent = formatNumber(honingPoolish);
 
-            document.getElementById('bloemHoofddeeg').textContent = bloemHoofddeeg.toFixed(2);
-            document.getElementById('waterHoofddeeg').textContent = waterHoofddeeg.toFixed(2);
-            document.getElementById('zoutHoofddeeg').textContent = zoutHoofddeeg.toFixed(2);
-            
+            document.getElementById('bloemHoofddeeg').textContent = formatNumber(bloemHoofddeeg);
+            document.getElementById('waterHoofddeeg').textContent = formatNumber(waterHoofddeeg);
+            document.getElementById('zoutHoofddeeg').textContent = formatNumber(zoutHoofddeeg);
+
             // Nieuwe regels om het aantal en gewicht van de deegbollen te updaten
             document.getElementById('aantalDeegballenTekst').textContent = aantalPizzas;
             document.getElementById('gewichtDeegbolTekst').textContent = gewichtDeegbol;
