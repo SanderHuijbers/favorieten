@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
         content="sandkar's, linken, humor, winkels, telefoon, kpn, nummer, zoekmachines, zoeken, voetbal, feyenoord." />
     <meta name="Description"
         content="sandkar's favorietenpage met linken naar handige sites met diverse onderwerpen." />
+    <base target="_blank" />
     <link type="text/css" rel="stylesheet" href="./css/favorieten.css">
     <!-- <link href="./css/style.css" rel="stylesheet" type="text/css" /> -->
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png" />
@@ -21,8 +22,8 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png" />
     <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png" /> <!-- Tip: Overweeg een manifest.json voor PWA's -->
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon//favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -32,28 +33,29 @@
 
 <body id="body-styling">
 
-    <button onclick="topFunction()" id="my-btn" title="Go to top" aria-label="Go to top"><img alt="home"
+    <button onclick="topFunction()" id="my-btn" title="Go to top"><img alt="home"
             src="./images/site/home_black_192x192.png"></button>
     <header>
-        <!-- Gebruik van semantische HTML5-elementen -->
-        <nav>
+        <titlebar>
             <h1>Sandkar's Favorieten</h1>
+        </titlebar>
+        <navigation>
             <a class="burger-nav">
                 <h1>Sandkar's Favorieten</h1>
             </a>
             <ul>
-                <li><a href="#sandkar_sites">Sandkar sites</a></li>
-                <li><a href="#streaming_audio">Streaming audio</a></li>
-                <li><a href="#linux_distributies">Linux Distributies</a></li>
-                <li><a href="#google">Google</a></li>
-                <li><a href="#bouwmarkten">Bouwmarkten</a></li>
-                <li><a href="#weer">Het weer</a></li>
-                <li><a href="#winkels">Winkels</a></li>
-                <li><a href="#supermarkten">Supermarkten</a></li>
-                <li><a href="#nieuws">Het nieuws</a></li>
-                <li><a href="#streaming_video">Streaming video</a></li>
+                <li><a target="_self" href="#sandkar_sites">Sandkar sites</a></li>
+                <li><a target="_self" href="#streaming_audio">Streaming audio</a></li>
+                <li><a target="_self" href="#linux_distributies">Linux Distributies</a></li>
+                <li><a target="_self" href="#google">Google</a></li>
+                <li><a target="_self" href="#bouwmarkten">Bouwmarkten</a></li>
+                <li><a target="_self" href="#weer">Het weer</a></li>
+                <li><a target="_self" href="#winkels">Winkels</a></li>
+                <li><a target="_self" href="#supermarkten">Supermarkten</a></li>
+                <li><a target="_self" href="#nieuws">Het nieuws</a></li>
+                <li><a target="_self" href="#streaming_video">Streaming video</a></li>
             </ul>
-        </nav>
+        </navigation>
     </header>
     <div class="grid-center">
         <form action="https://www.ecosia.org/search" method="get" target="_blank">
@@ -70,7 +72,8 @@
                     <div class="ex-container2">
                         <div class="parent">
                             <div class="linkbox">
-                                <h2 id="sandkar_sites">SandKar sites</h2>
+                                <a name="sandkar_sites"></a>
+                                <h2>SandKar sites</h2>
                                 <ul>
                                     <li><a href="https://favorieten.sandkar.nl/pizza">Sander's pizza Calculator</a></li>
                                     <li><a href="https://feyenoord.sandkar.nl/">Feyenoordpage</a></li>
@@ -86,7 +89,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="google">Google</h2>
+                                <a name="google"></a>
+                                <h2>Google</h2>
                                 <ul>
                                     <li><a href="https://www.google.com/calendar">Agenda</a></li>
                                     <li><a href="https://drive.google.com">Drive</a></li>
@@ -105,7 +109,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="social_media">Social media / chat</h2>
+                                <a name="social_media"></a>
+                                <h2>Social media / chat</h2>
                                 <ul>
                                     <li><a href="https://signal.org">Signal</a></li>
                                     <li><a href="https://www.telegram.org">Telegram </a></li>
@@ -114,7 +119,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="streaming_video">Streaming video</h2>
+                                <a name="streaming_video"></a>
+                                <h2>Streaming video</h2>
                                 <ul>
                                     <li><a href="https://www.youtube.com">YouTube</a></li>
                                     <li><a href="https://www.netflix.com">Netflix</a></li>
@@ -132,7 +138,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="streaming_audio">Streaming Audio</h2>
+                                <a name="streaming_audio"></a>
+                                <h2>Streaming Audio</h2>
                                 <ul>
                                     <li class="radiostream">
                                         <div class="radiostreamwebpage">
@@ -226,7 +233,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="weer">Het weer</h2>
+                                <a name="weer"></a>
+                                <h2>Het weer</h2>
                                 <ul>
                                     <li><a href="https://www.weeronline.nl">WeerOnline</a></li>
                                     <li><a href="https://hvh.sandkar.nl">Hoek van Holland</a></li>
@@ -237,14 +245,16 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="nieuws">Nieuws (NL)</h2>
+                                <a name="nieuws"></a>
+                                <h2>Nieuws (NL)</h2>
                                 <ul>
                                     <li><a href="https://www.ad.nl">AD.nl</a></li>
                                     <li><a href="https://www.nu.nl">NU.nl</a></li>
                                     <li><a href="https://nos.nl/nieuws/">NOS nieuws</a></li>
                                     <li><a href="https://www.tweakers.net">Tweakers.net</a></li>
                                 </ul>
-                            </div>                            <div class="linkbox">
+                            </div>
+                            <div class="linkbox">
                                 <a name="tv"></a>
                                 <h2>TV</h2>
                                 <ul>
@@ -274,7 +284,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="usenet">Usenet</h2>
+                                <a name="usenet"></a>
+                                <h2>Usenet</h2>
                                 <ul>
                                     <li>
                                         <a href="https://www.binsearch.info">Binsearch.info</a> (nzb's)
@@ -297,7 +308,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="usenet_providers">Usenet Providers</h2>
+                                <a name="usenet_providers"></a>
+                                <h2>Usenet Providers</h2>
                                 <ul>
                                     <li><a href="https://eweka.nl/">Eweka</a></li>
                                     <li><a href="https://www.pureusenet.nl/">Pure Usenet</a></li>
@@ -306,7 +318,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="linux_distributies">Linux Distributies</h2>
+                                <a name="linux_distributies"></a>
+                                <h2>Linux Distributies</h2>
                                 <ul>
                                     <li><a href="https://linuxmint.com/">LinuxMint</a></li>
                                     <li><a href="https://garudalinux.org/">Garuda Linux</a></li>
@@ -325,7 +338,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="Homey">Homey</h2>
+                                <a name="Homey"></a>
+                                <h2>Homey</h2>
                                 <ul>
                                     <li><a href="https://my.homey.app/">My Homey</a></li>
                                     <li><a href="https://apps.developer.homey.app/">App dev</a></li>
@@ -333,15 +347,18 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="media_info">Media info</h2>
+                                <a name="media_info"></a>
+                                <h2>Media info</h2>
                                 <ul>
                                     <li><a href="https://www.imdb.com">IMDB</a></li>
                                     <li><a href="https://www.trakt.tv">Trakt</a></li>
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="bouwmarkten">Bouwmarkten</h2>
+                                <a name="bouwmarkten"></a>
+                                <h2>Bouwmarkten</h2>
                                 <ul>
+                                    <li><a href="https://www.formido.nl">Formido</a></li>
                                     <li><a href="https://www.gamma.nl/">Gamma</a></li>
                                     <li><a href="https://www.hornbach.nl">Hornbach</a></li>
                                     <li><a href="https://www.karwei.nl">Karwei</a></li>
@@ -349,7 +366,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="winkels">Winkels</h2>
+                                <a name="winkels"></a>
+                                <h2>Winkels</h2>
                                 <ul>
                                     <li>
                                         <a href="https://www.allekabels.nl">Allekabels</a>
@@ -372,7 +390,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="supermarkten">Supermarkten</h2>
+                                <a name="supermarkten"></a>
+                                <h2>Supermarkten</h2>
                                 <ul>
                                     <li><a href="https://www.ah.nl">AH Albert Heijn </a></li>
                                     <li><a href="https://www.aldi.nl">Aldi</a></li>
@@ -386,7 +405,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="koken">Koken</h2>
+                                <a name="koken"></a>
+                                <h2>Koken</h2>
                                 <ul>
                                     <li>
                                         <a href="https://www.ah.nl/allerhande/recepten">Allerhande</a>
@@ -407,14 +427,16 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="stock_photos">Stock photos</h2>
+                                <a name="stock_photos"></a>
+                                <h2>Stock photos</h2>
                                 <ul>
                                     <li><a href="https://pixabay.com/">Pixabay (free)</a></li>
                                     <li><a href="https://www.pexels.com/">Pexels</a></li>
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="relaxgeluiden">Relaxgeluiden</h2>
+                                <a name="relaxgeluiden"></a>
+                                <h2>Relaxgeluiden</h2>
                                 <ul>
                                     <li><a href="https://asoftmurmur.com/">A soft murmur</a></li>
                                     <li><a href="https://www.noisli.com/">Noisli</a></li>
@@ -422,7 +444,8 @@
                             </div>
 
                             <div class="linkbox">
-                                <h2 id="overig">Overig</h2>
+                                <a name="overig"></a>
+                                <h2>Overig</h2>
                                 <ul>
                                     <li><a href="https://www.postnl.nl/postcode-zoeken/">Postcode</a></li>
                                     <li><a href="https://www.gwktravelex.nl/">Valuta koersen</a></li>
@@ -433,7 +456,8 @@
                             </div>
 
                             <div class="linkbox">
-                                <h2 id="verkeers_informatie">Verkeers informatie</h2>
+                                <a name="verkeers_informatie"></a>
+                                <h2>Verkeers informatie</h2>
                                 <ul>
                                     <li>
                                         <a
@@ -453,7 +477,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="ov">OV</h2>
+                                <a name="ov"></a>
+                                <h2>OV</h2>
                                 <ul>
                                     <li><a href="https://www.ov-chipkaart.nl/">OV Chipkaart</a></li>
                                     <li><a href="https://www.ret.nl/">RET</a></li>
@@ -462,7 +487,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="telefonie">Telefonie</h2>
+                                <a name="telefonie"></a>
+                                <h2>Telefonie</h2>
                                 <ul>
                                     <li><a href="https://www.kpn.com">KPN.com</a></li>
                                     <li>
@@ -471,7 +497,8 @@
                                     <li><a href="https://telecom.pagina.nl/">(meer telecom)</a></li>
                                 </ul>
                             </div>
-                            <div class="linkbox">                                <a name="uitgaan"></a>
+                            <div class="linkbox">
+                                <a name="uitgaan"></a>
                                 <h2>Uitgaan</h2>
                                 <ul>
                                     <li><a href="https://www.pathe.nl">Path&eacute;.nl</a></li>
@@ -481,7 +508,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="natuur">Natuur</h2>
+                                <a name="natuur"></a>
+                                <h2>Natuur</h2>
                                 <ul>
                                     <li>
                                         <a href="https://www.zuidhollandslandschap.nl/">Zuid Hollands landschap</a>
@@ -492,7 +520,8 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="digitale_fotografie">Digitale fotografie</h2>
+                                <a name="digitale_fotografie"></a>
+                                <h2>Digitale fotografie</h2>
                                 <ul>
                                     <li><a href="https://www.fotohart.nl/">Fotohart Maassluis</a></li>
                                     <li><a href="https://www.dpreview.com/">DPReview.com</a></li>
@@ -504,7 +533,8 @@
 
 
                             <div class="linkbox">
-                                <h2 id="webstorage">Webstorage</h2>
+                                <a name="webstorage"></a>
+                                <h2>Webstorage</h2>
                                 <ul>
                                     <li><a href="https://www.dropbox.com">Dropbox</a></li>
                                     <li><a href="https://drive.google.com/">Google Drive</a></li>
@@ -514,23 +544,26 @@
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="file_transfer">File Transfer</h2>
+                                <a name="file_transfer"></a>
+                                <h2>File Transfer</h2>
                                 <ul>
                                     <li><a href="https://send.firefox.com/">Firefox send</a></li>
                                     <li><a href="https://www.wetransfer.com/">We transfer</a></li>
                                 </ul>
                             </div>
                             <div class="linkbox">
-                                <h2 id="info_techniek">Info techniek</h2>
+                                <a name="info_techniek"></a>
+                                <h2>Info techniek</h2>
                                 <ul>
                                     <li><a href="https://www.allpinouts.org">Connector pinout</a></li>
                                     <li><a href="https://subnet.blaataap.com/">Netwerk IP Calculator</a></li>
                                     <li><a href="https://mxtoolbox.com/SubnetCalculator.aspx">Netwerk IP Calculator MX</a></li>
                                     <li><a href="https://mxtoolbox.com/NetworkTools.aspx">Netwerk Tools</a></li>
                                 </ul>
-                            </div>                            <div class="linkbox">
-                                <h2>Providers</h2>
+                            </div>
+                            <div class="linkbox">
                                 <a name="providers"></a>
+                                <h2>Providers</h2>
                                 <ul>
                                     <li><a href="https://www.caiway.nl">Caiway</a></li>
                                     <li><a href="https://www.kpn.com/">KPN</a></li>
@@ -540,21 +573,24 @@
                                     <li><a href="https://www.ikoula.nl/nl">Ikoula (hosting)</a></li>
                                 </ul>
                             </div>
-                            <div class="linkbox">                                <a name="webmail"></a>
+                            <div class="linkbox">
+                                <a name="webmail"></a>
                                 <h2>Webmail</h2>
                                 <ul>
                                     <li><a href="https://webmail.kpnmail.nl/">KPN-webmail</a></li>
                                     <li><a href="https://account.proton.me/nl/mail">Proton mail</a></li>
                                 </ul>
                             </div>
-                            <div class="linkbox">                                <a name="kaartje_sturen"></a>
+                            <div class="linkbox">
+                                <a name="kaartje_sturen"></a>
                                 <h2>Kaartje sturen?</h2>
                                 <ul>
                                     <li><a href="https://www.greetz.nl">Greetz</a></li>
                                     <li><a href="https://kaartenservice.tntpost.nl">TNT post</a></li>
                                 </ul>
                             </div>
-                            <div class="linkbox">                                <a name="energie"></a>
+                            <div class="linkbox">
+                                <a name="energie"></a>
                                 <h2>Energie</h2>
                                 <ul>
                                     <li><a href="https://www.eneco.nl">Eneco</a></li>
@@ -576,7 +612,7 @@
 <script>
     //Code for hamburger menu
     $("a.burger-nav").click(function () {
-        $("header nav ul").toggleClass("open");
+        $("header navigation ul").toggleClass("open");
     });
 
     //Code for home button
@@ -589,7 +625,7 @@
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             mybutton.style.display = "block";
-            $("header nav ul").removeClass("open");
+            $("header navigation ul").removeClass("open");
         } else {
             mybutton.style.display = "none";
         }
