@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup SV Contact Oud Mariniers</title>
+    <style>
+        /* Algemene Stijlen */
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        
+        /* Navigatiebalk */
+        header { background-color: rgba(20, 29, 38, 0.95); padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; position: fixed; width: 100%; top: 0; z-index: 1000; border-bottom: 2px solid #8b1e2f; }
+        .logo-placeholder { color: #fff; font-weight: bold; font-size: 1.1rem; display: flex; align-items: center; gap: 10px; }
+        .logo-circle { width: 40px; height: 40px; background: #fff; border-radius: 50%; display: inline-block; border: 2px solid #8b1e2f; }
+        nav a { color: #cbd5e1; text-decoration: none; margin-left: 20px; font-weight: 500; font-size: 0.95rem; transition: color 0.3s; }
+        nav a:hover, nav a.active { color: #fff; border-bottom: 2px solid #8b1e2f; padding-bottom: 5px; }
+
+        /* Hero Section met sfeervolle donkere achtergrond */
+        .hero { 
+            margin-top: 70px;
+            height: 75vh; 
+            background: linear-gradient(rgba(20, 29, 38, 0.75), rgba(20, 29, 38, 0.85)), url('https://images.unsplash.com/photo-1595125302344-936ea4f97155?auto=format&fit=crop&q=80&w=1920') no-repeat center center/cover;
+            display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #fff; padding: 0 20px;
+        }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 15px; letter-spacing: 1px; max-width: 800px; text-transform: uppercase; font-weight: 800; text-shadow: 2px 2px 4px rgba(0,0,0,0.6); }
+        .hero p { font-size: 1.3rem; margin-bottom: 30px; max-width: 600px; color: #e2e8f0; }
+        .btn-primary { background-color: #8b1e2f; color: #fff; padding: 14px 30px; text-decoration: none; font-weight: bold; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px; transition: background 0.3s; box-shadow: 0 4px 6px rgba(0,0,0,0.2); }
+        .btn-primary:hover { background-color: #a72539; }
+
+        /* Voordelen / Intro sectie */
+        .usp-section { padding: 60px 10%; display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; background-color: #fff; }
+        .usp-card { background: #f8f9fa; padding: 30px; border-radius: 6px; text-align: center; border-top: 4px solid #141d26; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .usp-card h3 { margin-bottom: 12px; color: #141d26; font-size: 1.3rem; }
+        .usp-card p { color: #64748b; font-size: 0.95rem; }
+
+        /* Disciplines Cards */
+        .disciplines { padding: 60px 10%; text-align: center; background-color: #f1f5f9; }
+        .disciplines h2 { font-size: 2rem; margin-bottom: 40px; color: #141d26; text-transform: uppercase; letter-spacing: 1px; }
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: left; transition: transform 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .card-img { height: 200px; background-size: cover; background-position: center; }
+        .card-content { padding: 25px; }
+        .card-content h3 { margin-bottom: 10px; color: #141d26; }
+        .card-content p { color: #626465; font-size: 0.9rem; margin-bottom: 15px; }
+        .card-link { color: #8b1e2f; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+
+        /* Footer */
+        footer { background-color: #141d26; color: #94a3b8; padding: 40px 10% 20px; font-size: 0.9rem; border-top: 4px solid #8b1e2f; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 30px; }
+        .footer-col h4 { color: #fff; margin-bottom: 15px; text-transform: uppercase; font-size: 0.95rem; letter-spacing: 1px; }
+        .footer-col p { line-height: 1.8; }
+        .footer-bottom { text-align: center; padding-top: 20px; border-top: 1px solid #334155; font-size: 0.8rem; color: #64748b; }
+    </style>
+</head>
+<body>
+
+    <!-- Header & Navigatie -->
+    <header>
+        <div class="logo-placeholder">
+            <div class="logo-circle"></div>
+            <span>SV Contact Oud Mariniers</span>
+        </div>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Over Ons</a>
+            <a href="#">Disciplines</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Discipline, Precisie & Kameraadschap</h1>
+        <p>Maak kennis met de schietsport bij de gezelligste vereniging van het Westland. Nu geopend voor nieuwe leden.</p>
+        <a href="#" class="btn-primary">Kom een avond kennismaken</a>
+    </section>
+
+    <!-- USP Sectie om drempel te verlagen -->
+    <section class="usp-section">
+        <div class="usp-card">
+            <h3>Voor Iedereen</h3>
+            <p>Van absolute beginner tot ervaren schutter. Wij begeleiden je stap voor stap in de sport.</p>
+        </div>
+        <div class="usp-card">
+            <h3>Veiligheid Voorop</h3>
+            <p>Gecertificeerde instructeurs, professionele banen en strikte naleving van alle KNSA-richtlijnen.</p>
+        </div>
+        <div class="usp-card">
+            <h3>Kameraadschap</h3>
+            <p>Een trotse vereniging met een maritieme achtergrond waar sportiviteit en gezelligheid samenkomen.</p>
+        </div>
+    </section>
+
+    <!-- Disciplines Overzicht (Voorbeeld met stock-achtergronden) -->
+    <section class="disciplines">
+        <h2>Onze Disciplines</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1601247444552-32a220df6ca0?auto=format&fit=crop&q=80&w=600');"></div>
+                <div class="card-content">
+                    <h3>Handvuurwapens</h3>
+                    <p>Schieten met pistool of revolver op diverse afstanden. Focus op techniek, ademhaling en precisie.</p>
+                    <a href="#" class="card-link">Meer informatie &rarr;</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1595125302344-936ea4f97155?auto=format&fit=crop&q=80&w=600');"></div>
+                <div class="card-content">
+                    <h3>Geweer</h3>
+                    <p>Zowel staand als liggend schieten met kleinkaliber of grootkaliber geweren op de schietschijf.</p>
+                    <a href="#" class="card-link">Meer informatie &rarr;</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1560253023-3ec5d502959f?auto=format&fit=crop&q=80&w=600');"></div>
+                <div class="card-content">
+                    <h3>Historische Wapens</h3>
+                    <p>Ervaar de oorsprong van de schietsport met authentieke zwartkruit- en historische wapens.</p>
+                    <a href="#" class="card-link">Meer informatie &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Moderne Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>SV Contact Oud Mariniers (Afd. Westland)</h4>
+                <p>Al sinds jaar en dag een begrip in de regio voor discipline en schietsport op niveau. Aangesloten bij de KNSA.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Locatie</h4>
+                <p>Hoogwerf 8a<br>2671 MJ Naaldwijk<br>Netherlands</p>
+            </div>
+            <div class="footer-col">
+                <h4>Clubavonden</h4>
+                <p>Maandag: 19:30 - 23:00<br>Woensdag: 19:30 - 23:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 SV Contact Oud Mariniers afd. Westland. Alle rechten voorbehouden. | Privacybeleid
+        </div>
+    </footer>
+
+</body>
+</html>
