@@ -1,0 +1,243 @@
+/* Algemene Stijlen */
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+body { 
+    background-color: #f8f9fa; 
+    color: #333; 
+    line-height: 1.6; 
+}
+
+/* Navigatiebalk */
+header { 
+    background-color: rgba(20, 29, 38, 0.95); 
+    padding: 15px 5%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: fixed; 
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+    border-bottom: 2px solid #8b1e2f; 
+}
+.logo-placeholder { 
+    color: #fff; 
+    font-weight: bold; 
+    font-size: 1.1rem; 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+.logo-circle { 
+    width: 35px; 
+    height: 35px; 
+    background: #fff; 
+    border-radius: 50%; 
+    display: inline-block; 
+    border: 2px solid #8b1e2f; 
+    flex-shrink: 0; 
+}
+nav a { 
+    color: #cbd5e1; 
+    text-decoration: none; 
+    margin-left: 20px; 
+    font-weight: 500; 
+    font-size: 0.95rem; 
+    transition: color 0.3s; 
+}
+nav a:hover, nav a.active { 
+    color: #fff; 
+    border-bottom: 2px solid #8b1e2f; 
+    padding-bottom: 5px; 
+}
+
+/* Hero Section met eigen subtiele achtergrondafbeelding */
+.hero { 
+    margin-top: 60px;
+    min-height: 70vh; 
+    background: linear-gradient(rgba(20, 29, 38, 0.75), rgba(20, 29, 38, 0.85)), url('../images/background.png') no-repeat center center/cover;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    color: #fff; 
+    padding: 40px 20px;
+}
+.hero h1 { 
+    font-size: 2.5rem; 
+    margin-bottom: 15px; 
+    letter-spacing: 1px; 
+    max-width: 800px; 
+    text-transform: uppercase; 
+    font-weight: 800; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6); 
+}
+.hero p { 
+    font-size: 1.2rem; 
+    margin-bottom: 30px; 
+    max-width: 600px; 
+    color: #e2e8f0; 
+}
+.btn-primary { 
+    background-color: #8b1e2f; 
+    color: #fff; 
+    padding: 14px 30px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    border-radius: 4px; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    transition: background 0.3s; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+    text-align: center; 
+}
+.btn-primary:hover { 
+    background-color: #a72539; 
+}
+
+/* Voordelen / Intro sectie */
+.usp-section { 
+    padding: 50px 5%; 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    background-color: #fff; 
+}
+.usp-card { 
+    background: #f8f9fa; 
+    padding: 25px; 
+    border-radius: 6px; 
+    text-align: center; 
+    border-top: 4px solid #141d26; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05); 
+}
+.usp-card h3 { 
+    margin-bottom: 12px; 
+    color: #141d26; 
+    font-size: 1.2rem; 
+}
+.usp-card p { 
+    color: #64748b; 
+    font-size: 0.95rem; 
+}
+
+/* Disciplines Cards */
+.disciplines { 
+    padding: 50px 5%; 
+    text-align: center; 
+    background-color: #f1f5f9; 
+}
+.disciplines h2 { 
+    font-size: 2rem; 
+    margin-bottom: 30px; 
+    color: #141d26; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+.grid { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+.card { 
+    background: #fff; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); 
+    text-align: left; 
+    transition: transform 0.3s; 
+    display: flex; 
+    flex-direction: column; 
+}
+.card-img { 
+    height: 200px; 
+    background-size: cover; 
+    background-position: center; 
+}
+.card-content { 
+    padding: 20px; 
+    flex-grow: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+.card-content h3 { 
+    margin-bottom: 10px; 
+    color: #141d26; 
+    font-size: 1.2rem; 
+}
+.card-content p { 
+    color: #626465; 
+    font-size: 0.9rem; 
+    margin-bottom: 15px; 
+}
+.card-link { 
+    color: #8b1e2f; 
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 0.9rem; 
+}
+
+/* Footer */
+footer { 
+    background-color: #141d26; 
+    color: #94a3b8; 
+    padding: 40px 5% 20px; 
+    font-size: 0.9rem; 
+    border-top: 4px solid #8b1e2f; 
+}
+.footer-grid { 
+    display: grid; 
+    grid-template-columns: 2fr 1fr 1fr; 
+    gap: 30px; 
+    margin-bottom: 30px; 
+}
+.footer-col h4 { 
+    color: #fff; 
+    margin-bottom: 15px; 
+    text-transform: uppercase; 
+    font-size: 0.95rem; 
+    letter-spacing: 1px; 
+}
+.footer-col p { 
+    line-height: 1.8; 
+}
+.footer-bottom { 
+    text-align: center; 
+    padding-top: 20px; 
+    border-top: 1px solid #334155; 
+    font-size: 0.8rem; 
+    color: #64748b; 
+}
+
+/* RESPONSIVE DESIGN (Media Queries voor Mobiel en Tablet) */
+@media (max-width: 900px) {
+    .usp-section, .grid, .footer-grid { 
+        grid-template-columns: 1fr; 
+        gap: 25px; 
+    }
+    .hero h1 { 
+        font-size: 1.8rem; 
+    }
+    .hero p { 
+        font-size: 1rem; 
+    }
+    header { 
+        flex-direction: column; 
+        gap: 10px; 
+        text-align: center; 
+        padding: 10px 5%; 
+    }
+    nav a { 
+        margin: 0 8px; 
+        font-size: 0.85rem; 
+    }
+    .hero { 
+        margin-top: 90px; 
+    }
+}
